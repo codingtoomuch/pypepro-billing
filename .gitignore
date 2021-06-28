@@ -1,0 +1,7 @@
+# Default ignored files
+/workspace.xml
+# IDEs
+.idea/
+.kdev4/
+*.kdev4
+

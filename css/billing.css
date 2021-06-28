@@ -1,0 +1,409 @@
+/*****************************
+           Common Style 
+  ******************************/
+p {
+  margin: 0;
+}
+.flex-column {
+  flex-direction: column;
+}
+.text-light-blue {
+  color: var(--light_blue);
+}
+.text-gray {
+  color: var(--gray);
+}
+.text-dark-blue {
+  color: var(--dark_blue);
+}
+.text-dark-blue-65 {
+  color: rgba(19, 49, 89, 0.65);
+}
+.text-light-green {
+  color: var(--light_green);
+}
+.text-red {
+  color: var(--red);
+}
+.text-light-gray-2 {
+  color: #8896a8;
+}
+.bg-red {
+  background: var(--red);
+}
+.bg-light-blue {
+  background: var(--light_blue);
+}
+.bg-dark-blue {
+  background: var(--dark_blue);
+}
+.bg-dark-blue-65 {
+  background: rgba(19, 49, 89, 0.65);
+}
+.bg-light-green {
+  background: var(--light_green);
+}
+.bg-gray-light {
+  background: var(--gray_light);
+}
+.text-center {
+  text-align: center !important;
+}
+.text-right {
+  text-align: right !important;
+}
+.text-left {
+  text-align: left !important;
+}
+.radius-5 {
+  border-radius: 5px !important;
+}
+.radius-10 {
+  border-radius: 10px !important;
+}
+/* font size */
+.heading-1 {
+  font-size: 96px;
+}
+.heading-2 {
+  font-size: 60px;
+}
+.heading-3 {
+  font-size: 48px;
+}
+.heading-4 {
+  font-size: 32px;
+}
+.heading-5 {
+  font-size: 24px;
+}
+.heading-6 {
+  font-size: 20px;
+}
+.subtitle-1 {
+  font-size: 16px;
+}
+.subtitle-2 {
+  font-size: 14px;
+}
+.subtitle-3 {
+  font-size: 12px;
+}
+/* font wight */
+.weight-bold {
+  font-weight: 700;
+}
+.weight-semi-bold {
+  font-weight: 600;
+}
+.weight-medium {
+  font-weight: 500;
+}
+/* Usage Information */
+.usage_info_header {
+  height: 100px;
+}
+.usage_info_header > h2 {
+  margin-left: 20px;
+}
+.auto_bill_message {
+  max-width: 312px;
+}
+.manage_billing_btn {
+  height: 50px;
+  width: 191px;
+  transition: 0.3s ease-in-out;
+}
+.manage_billing_btn > span,
+.view_details_btn > span {
+  height: 26px;
+  width: 26px;
+}
+.manage_billing_btn > span svg {
+  fill: rgba(19, 49, 89, 0.65);
+  transition: 0.3s ease-in-out;
+}
+.manage_billing_btn:hover {
+  background: var(--light_blue);
+}
+.manage_billing_btn:hover svg {
+  fill: var(--light_blue);
+}
+.progress__bar_container {
+  width: 55%;
+  max-width: 400px;
+}
+.progress__bar {
+  height: 10px;
+  background: rgba(60, 126, 243, 0.1);
+}
+.progress__field {
+  flex-basis: 40%;
+  background: var(--light_blue);
+}
+.view_details_btn {
+  height: 50px;
+  width: 176px;
+}
+.view_details_btn:hover {
+  background: var(--dark_blue);
+  transition: 0.3s ease-in-out;
+}
+.view_details_btn > span svg {
+  fill: var(--light_blue);
+  transition: 0.3s ease-in-out;
+}
+.view_details_btn:hover svg {
+  fill: var(--dark_blue);
+}
+.billing__card,
+.balance__card {
+  min-height: 230px;
+}
+.balance__card {
+  flex-direction: column;
+}
+/* bottom menu */
+.bottom_menu_tabs_container {
+  overflow: hidden;
+  min-height: 494px;
+}
+.bottom_menu_tabs .indicator,
+.card_info_tabs .indicator {
+  display: none;
+}
+.bottom_menu_tabs {
+  border-bottom: 1px solid #d5cbff;
+  height: 50px;
+}
+.bottom_menu_tabs li a,
+.card_info_tabs li a {
+  text-transform: capitalize;
+  color: rgba(19, 49, 89, 0.65) !important;
+  font-size: 16px !important;
+}
+.bottom_menu_tabs li a svg {
+  fill: rgba(19, 49, 89, 0.65);
+}
+.bottom_menu_tabs li a:hover,
+.bottom_menu_tabs li a.active,
+.card_info_tabs li a:hover,
+.card_info_tabs li a.active {
+  color: var(--light_blue) !important;
+  background: var(--white) !important;
+}
+.bottom_menu_tabs li a:hover svg,
+.bottom_menu_tabs li a.active svg {
+  fill: var(--light_blue);
+}
+.select__dropdown {
+  position: relative;
+}
+.add_balance_dropdown {
+  width: 337px;
+}
+.select__dropdown select {
+  height: 50px;
+  border: 2px solid var(--gray_dark);
+  width: 100%;
+  padding-left: 20px;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  outline: none;
+  font-family: inherit;
+  color: rgba(19, 49, 89, 0.65);
+}
+.expand__dropdown {
+  position: absolute;
+  right: 20px;
+  top: 12px;
+}
+.add_balance_btn {
+  height: 50px;
+  width: 165px;
+  transition: 0.3s linear;
+}
+.add_balance_btn:hover {
+  background: var(--dark_blue);
+}
+/* card info */
+.card_info_tabs {
+  border-bottom: 0.5px solid #d5cbff;
+}
+.add_card_field {
+  position: relative;
+}
+.common__input__field {
+  box-shadow: none !important;
+  height: 50px !important;
+  font-family: inherit;
+  box-sizing: border-box !important;
+}
+.add_card_field input {
+  border: 1px solid rgba(60, 127, 243, 0.5) !important;
+  max-width: 338px;
+  padding-left: 160px !important;
+  border-radius: 5px !important;
+}
+.add_card_field input::placeholder {
+  font-family: var(--poppins);
+  color: rgba(19, 49, 89, 0.65);
+}
+.add_card_field_placeholder {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.add_card_btn {
+  height: 50px;
+  width: 117px;
+  border: 1px solid var(--light_blue);
+  margin-left: 30px;
+  transition: 0.3s linear;
+}
+.add_card_btn:hover {
+  background: var(--light_blue);
+  color: var(--white);
+}
+.change_card_container {
+  max-width: 940px;
+}
+.change_card_input {
+  border: 1px solid var(--gray_dark) !important;
+}
+.existing_card_table {
+  border-collapse: separate;
+  border-spacing: 0 20px;
+  overflow-x: auto;
+}
+.existing_card_table thead tr {
+  background: var(--gray_dark);
+}
+.existing_card_table thead tr td:not(:last-child) {
+  border-right: 3px solid var(--white);
+}
+.existing_card_table thead tr td:first-child {
+  border-top-left-radius: 10px;
+}
+.existing_card_table thead tr td:last-child {
+  border-top-right-radius: 10px;
+}
+.existing_card_table tbody tr {
+  background: var(--gray_light);
+}
+.existing_card_action_btn {
+  border: 1px solid var(--gray_dark);
+}
+/* instant top up */
+.instant_topup_dropdown {
+  width: 291px;
+}
+.instant__topup__row {
+  max-width: 790px;
+}
+a.instant_topup_btn {
+  height: 50px;
+  transition: 0.3s linear;
+}
+a.instant_topup_btn:hover {
+  background: var(--dark_blue);
+}
+/*  usage history */
+.usage_history_top,
+.invoice_history_top {
+  height: 90px;
+}
+.usage_history_top a:hover,
+.invoice_history_top a:hover,
+.usage_history_top a.active,
+.invoice_history_top a.active {
+  color: var(--light_blue);
+}
+.usage_search_field,
+.invoice_search_field {
+  position: relative;
+}
+.usage_search_field input,
+.invoice_search_field input {
+  border: 2px solid var(--gray_dark) !important;
+  width: 260px !important;
+}
+.usage_search_field input::placeholder,
+.invoice_search_field input::placeholder {
+  color: var(--dark_blue);
+  opacity: 0.5;
+}
+.usage_search_field svg,
+.invoice_search_field svg {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+.usage_history_table,
+.invoice_history_table {
+  border-collapse: separate;
+  border-spacing: 0 20px;
+}
+.usage_history_table tbody tr,
+.invoice_history_table tbody tr {
+  background: var(--white);
+  padding: 0 20px;
+}
+.usage_history_table tbody tr td:first-child,
+.invoice_history_table tbody tr td:first-child {
+  border-radius: 5px 0 0 5px;
+}
+.usage_history_table tbody tr td:last-child,
+.invoice_history_table tbody tr td:last-child {
+  border-radius: 0 5px 5px 0;
+}
+.usage_history_table > tbody > tr > td > a,
+.invoice_history_table > tbody > tr > td > a {
+  display: inline-block;
+  height: 50px;
+  width: 92px;
+  transition: 0.3s linear;
+  padding: 14px 0px;
+}
+.usage_history_table > tbody > tr > td > a:hover,
+.invoice_history_table > tbody > tr > td > a:hover {
+  background: var(--dark_blue);
+}
+.usage_history_table tr > td,
+.invoice_history_table tr > td {
+  text-align: center;
+}
+.usage_history_table tr > td:first-child,
+.invoice_history_table tr > td:first-child {
+  text-align: left;
+}
+
+/* invoice history */
+.view_invoice_btn {
+  width: 153px !important;
+}
+
+/* View details modal */
+#view_details_modal {
+  max-width: 800px;
+}
+.view_details_modal_left {
+  flex: 3;
+}
+.view_details_modal_right {
+  flex: 5;
+}
+.view_details_modal_right_header {
+  border-bottom: 1px solid var(--gray_dark);
+}
+.view_details_download_btn {
+  border-bottom: 1px solid var(--gray_dark);
+}
+@media (max-width: 1450px) {
+  .balance__currency {
+    font-size: 32px;
+  }
+}

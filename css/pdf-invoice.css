@@ -1,0 +1,18 @@
+body {
+  max-width: 595px;
+  margin: 0 auto;
+  background: var(--white);
+}
+.pdf_header {
+  margin-bottom: 90px;
+}
+.pdf_top .logo-text {
+  font-size: 26px;
+}
+.pdf_top > p {
+  font-size: 48px;
+}
+.pdf_payment_info {
+  margin-top: 100px;
+  margin-bottom: 240px;
+}

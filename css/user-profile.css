@@ -1,0 +1,309 @@
+.profile_sidebar,
+.profile_right_items {
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+
+.profile_sidebar_top {
+  background: var(--dark_blue);
+  min-height: 287px;
+  flex-direction: column;
+}
+
+.profile_sidebar_top_img {
+  position: relative;
+}
+
+.profile_sidebar_top h5 {
+  text-align: center;
+}
+
+.add_img_camera_icon {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 50px;
+  width: 50px;
+  border: 4px solid var(--white);
+  background: var(--light_blue);
+  cursor: pointer;
+}
+
+.add_img_camera_icon i {
+  font-size: 30px;
+}
+
+.profile_sidebar_items .tabs {
+  flex-direction: column;
+  /* height: fit-content; */
+  height: auto;
+}
+
+.profile_sidebar_items .tabs .indicator {
+  display: none;
+}
+
+.profile_sidebar_items .tabs .tab a {
+  color: rgba(19, 49, 89, 0.65);
+  text-transform: capitalize;
+  background: var(--white);
+  text-align: left;
+  font-size: 16px;
+  border: 1px solid rgba(60, 127, 243, 0.1);
+  border-radius: 5px;
+}
+
+.profile_sidebar_items .tabs .tab a svg {
+  fill: rgba(19, 49, 89, 0.65);
+}
+
+.profile_sidebar_items .tabs .tab a.delete_account {
+  color: var(--red);
+}
+
+.profile_sidebar_items .tabs .tab a:hover,
+.profile_sidebar_items .tabs .tab a.active {
+  background: var(--light_blue);
+  color: var(--white);
+}
+
+.profile_sidebar_items .tabs .tab a.delete_account svg {
+  fill: var(--red);
+}
+
+.profile_sidebar_items .tabs .tab a:hover svg {
+  fill: var(--white);
+}
+
+/* Profile right */
+.profile_right_heading {
+  background: var(--dark_blue);
+}
+
+.profile_right_item .personal_info_text_field {
+  border: 1px solid var(--gray_light) !important;
+  border-radius: 5px !important;
+  padding-left: 10px !important;
+  background: var(--white) !important;
+  box-sizing: border-box !important;
+  box-shadow: none !important;
+}
+
+.profile_right_item input.personal_info_text_field {
+  height: 50px !important;
+}
+
+.profile_right_item textarea.personal_info_text_field {
+  height: 100px;
+  outline: 0;
+}
+
+span.required__field {
+  color: var(--red);
+}
+
+.profile_right_footer {
+  border-top: 1px solid var(--gray_dark);
+}
+
+.profile_right_footer_btn {
+  background: var(--light_blue);
+  color: var(--white);
+  border-radius: 5px;
+  transition: 0.3s ease-in-out;
+}
+
+.profile_right_footer_btn i {
+  color: var(--light_blue);
+  font-size: 20px;
+  transition: 0.3s ease-in-out;
+}
+
+.profile_right_footer_btn:hover {
+  background: var(--dark_blue);
+}
+
+.profile_right_footer_btn:hover i {
+  color: var(--dark_blue);
+}
+
+.profile_right_footer_btn span {
+  height: 26px;
+  width: 26px;
+}
+
+.country__flag__select {
+  width: 80px;
+  height: 50px;
+  border: 1px solid var(--gray_light) !important;
+  border-right: 0 !important;
+  border-radius: 5px 0 0 5px;
+}
+
+.country__flag__select:focus {
+  outline: 0;
+}
+
+.personal_info_text_field.flag_phone_field {
+  border-left: 0 !important;
+}
+
+.img__file__condition {
+  color: rgba(19, 49, 89, 0.65);
+}
+
+.upload__field {
+  max-width: 450px;
+  border: 1px dashed var(--light_blue);
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.upload__field .place__holder i {
+  font-size: 40px;
+  color: var(--gray_dark);
+  transition: 0.3s ease-in-out;
+}
+
+.upload__field .place__holder p {
+  color: rgba(19, 49, 89, 0.65);
+  font-size: 16px;
+}
+
+.upload__field .file_browse_btn {
+  background: var(--gray_dark);
+  color: rgba(19, 49, 89, 0.65);
+  cursor: pointer;
+  border-radius: 5px;
+  width: 148px;
+  transition: 0.3s ease-in-out;
+}
+
+.upload__field:hover .file_browse_btn {
+  background: var(--light_blue);
+  color: var(--white);
+}
+
+.upload__field:hover .place__holder i {
+  color: var(--light_blue);
+}
+
+/* CSS Code by Sazzad */
+.show-appointemnet-text svg {
+  vertical-align: text-top;
+  margin-left: 10px;
+}
+
+.Switch {
+  position: relative;
+  display: inline-block;
+  font-size: 1.6em;
+  font-weight: bold;
+  color: #ccc;
+  height: 26px;
+  width: 52px;
+  padding: 4px 4px 4px 4px;
+  border: 1px solid rgba(19, 49, 89, 0.35);
+  border-radius: 20px;
+  background: var(--white);
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.Switch span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #FF264A;
+}
+
+.Switch span.On {
+  font-size: 16px;
+  line-height: 24px;
+  color: #219653;
+  font-weight: 400;
+}
+
+.Switch .Toggle {
+  position: absolute;
+  top: 1px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: transparent;
+  /* background: -moz-linear-gradient(top, #ececec 0%, #ffffff 100%);
+  background: -o-linear-gradient(top, #ececec 0%, #ffffff 100%);
+  background: -ms-linear-gradient(top, #ececec 0%, #ffffff 100%);
+  background: linear-gradient(top, #ececec 0%, #ffffff 100%);
+  -webkit-transition: all 0.15s ease-in-out; */
+}
+
+.Switch.On .Toggle {
+  left: 4%;
+  top: 3px;
+}
+
+.Switch.Off .Toggle {
+  left: 73%;
+  top: 3px;
+}
+
+.Switch.Round {
+  padding: 0px 20px;
+  border-radius: 40px;
+}
+
+body.IE7 .Switch.Round {
+  width: 1px;
+}
+
+.Switch.Round .Toggle {
+  border-radius: 40px;
+  width: 14px;
+  height: 14px;
+}
+
+.Switch.Round.Off .Toggle {
+  left: 3%;
+  background: #33d2da;
+}
+
+.Switch.Round.On .Toggle {
+  left: 58%;
+}
+
+.info {
+  font-size: 1.2em;
+  margin-bottom: 4px;
+}
+
+.Switch.Off .Off {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.Switch.On .On {
+  opacity: 1;
+  visibility: visible;
+}
+
+.Switch.On .Off {
+  visibility: visible;
+  opacity: 1;
+  color: #fff;
+  transition: all 0.4s;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400 !important;
+}
+
+.Switch.On .On {
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.4s;
+}

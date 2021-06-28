@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRM-System</title>
+    <!-- CSS  -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <!--  Google Fonts-->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500&display=swap"
+        rel="stylesheet" />
+    <!-- Material icon-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <!--  Materialize min css-->
+    <link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <!--  Global css file-->
+    <link href="css/global.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link rel="stylesheet" href="css/billing.css">
+    <link rel="stylesheet" href="css/pdf-invoice.css">
+</head>
+
+<body>
+    <div>
+        <div class="p-4 pdf_header">
+            <div class="d-flex justify-content-between align-items-center pdf_top">
+                <div class="d-flex align-items-center">
+                    <img src="./images/small-logo.png" alt="">
+                    <p class="text-dark-blue logo-text ml-3">Pypepro</p>
+                </div>
+                <p class="text-dark-blue">Invoice</p>
+            </div>
+            <div class="d-flex justify-content-between mt-1">
+                <div class="ml-4">
+                    <p class="text-dark-blue">INVOICE TO : <span class="text-light-blue">Technical Test</span></p>
+                    <p class="text-dark-blue">Phone : 18646713693</p>
+                </div>
+                <div>
+                    <p class="text-dark-blue-65">INVOICE NO : 6JN6RUN3RT</p>
+                    <p class="text-dark-blue-65">DATE : 21 Apr 2021, 06:03 PM</p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="row m-0 bg-gray-light py-3 px-4">
+                <div class="col s4 p-0">
+                    <p class="subtitle-2 text-gray">Invoice For</p>
+                </div>
+                <div class="col s3 p-0">
+                    <p class="subtitle-2 text-gray">Package Type</p>
+                </div>
+                <div class="col s3 p-0">
+                    <p class="subtitle-2 text-gray">USD Amount</p>
+                </div>
+                <div class="col s2 p-0">
+                    <p class="subtitle-2 text-gray">Amount</p>
+                </div>
+            </div>
+            <div class="row m-0 px-4">
+                <div class="col s4 p-0">
+                    <p class="subtitle-2 text-dark-blue-65">Developer Testing Package </p>
+                </div>
+                <div class="col s3 p-0">
+                    <p class="subtitle-2 text-dark-blue-65">Regular Package </p>
+                </div>
+                <div class="col s3 p-0">
+                    <p class="heading-6 text-dark-blue-65">$10</p>
+                </div>
+                <div class="col s2 p-0">
+                    <p class="heading-6 text-dark-blue-65">$10.00</p>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex justify-content-between px-4 pdf_payment_info">
+            <div class="text-dark-blue subtitle-1">
+                <p>Payment Info</p>
+                <p>Accounts : Technical Test</p>
+                <p>Card NUmber : **** **** **** 4242</p>
+            </div>
+            <div class="text-right">
+                <p class="text-dark-blue subtitle-2">Sub Total : <span class="text-light-blue heading-6">$ 10.00</span>
+                </p>
+                <p class="text-dark-blue subtitle-1 weight-semi-bold">Total : <span class="heading-5">$ 10.00</span></p>
+
+            </div>
+        </div>
+        <div class="bg-light-blue py-3 text-center">
+            <p class="white-text subtitle-2">Thank you for your business</p>
+        </div>
+    </div>
+</body>
+
+</html>

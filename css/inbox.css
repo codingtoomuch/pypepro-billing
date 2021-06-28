@@ -1,0 +1,1862 @@
+.inbox-overflow--hidden {
+  overflow: hidden;
+}
+
+/* Global CSS */
+.b-radius-10 {
+  border-radius: 10px !important;
+}
+
+.mb-25 {
+  margin-bottom: 25px !important;
+}
+
+.ml-25 {
+  margin-left: 25px !important;
+}
+
+.mx-20 {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.p-t-30 {
+  padding-top: 30px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.p-relative {
+  position: relative !important;
+}
+
+/* .m-height-100 {
+  min-height: 100% !important;
+} */
+
+#cutomScrollbar1::-webkit-scrollbar-track,
+#cutomScrollbar2::-webkit-scrollbar-track,
+#cutomScrollbar3::-webkit-scrollbar-track,
+#cutomScrollbar4::-webkit-scrollbar-track,
+#cutomScrollbar5::-webkit-scrollbar-track,
+#cutomScrollbar6::-webkit-scrollbar-track,
+#tabScrollbar::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 10px rgba(60, 126, 243, 0.1);
+  background-color: rgba(60, 126, 243, 0.1);
+  border-radius: 10px;
+}
+
+#cutomScrollbar1,
+#cutomScrollbar2,
+#cutomScrollbar3,
+#cutomScrollbar4,
+#cutomScrollbar5,
+#cutomScrollbar6,
+#tabScrollbar {
+  /* Thumb */
+  scrollbar-face-color: #133159;
+  scrollbar-shadow-color: #133159;
+  scrollbar-highlight-color: #133159;
+  scrollbar-3dlight-color: #133159;
+  scrollbar-darkshadow-color: #133159;
+  /* Track */
+  scrollbar-track-color: #ECF3FE;
+  /* Buttons */
+  scrollbar-arrow-color: #133159;
+}
+
+#cutomScrollbar1::-webkit-scrollbar-thumb,
+#cutomScrollbar2::-webkit-scrollbar-thumb,
+#cutomScrollbar3::-webkit-scrollbar-thumb,
+#cutomScrollbar4::-webkit-scrollbar-thumb,
+#cutomScrollbar5::-webkit-scrollbar-thumb,
+#cutomScrollbar6::-webkit-scrollbar-thumb,
+#tabScrollbar::-webkit-scrollbar-thumb {
+  background-color: #133159;
+  width: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+}
+
+#cutomScrollbar1::-webkit-scrollbar,
+#cutomScrollbar2::-webkit-scrollbar,
+#cutomScrollbar3::-webkit-scrollbar,
+#cutomScrollbar4::-webkit-scrollbar,
+#cutomScrollbar5::-webkit-scrollbar,
+#cutomScrollbar6::-webkit-scrollbar,
+#tabScrollbar::-webkit-scrollbar {
+  background-color: #ECF3FE;
+  width: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+}
+
+#cutomScrollbar1,
+#cutomScrollbar2,
+#cutomScrollbar3,
+#cutomScrollbar4,
+#cutomScrollbar5,
+#cutomScrollbar6,
+#tabScrollbar {
+  scrollbar-color: #133159 #ECF3FE;
+  scrollbar-width: thin;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+}
+
+#cutomScrollbar1::-webkit-scrollbar,
+#cutomScrollbar2::-webkit-scrollbar,
+#cutomScrollbar3::-webkit-scrollbar,
+#cutomScrollbar4::-webkit-scrollbar,
+#cutomScrollbar5::-webkit-scrollbar,
+#cutomScrollbar6::-webkit-scrollbar,
+#tabScrollbar::-webkit-scrollbar {
+  width: 10px;
+  background-color: rgba(60, 126, 243, 0.1);
+  border-radius: 10px;
+}
+
+#cutomScrollbar1::-webkit-scrollbar-thumb,
+#cutomScrollbar2::-webkit-scrollbar-thumb,
+#cutomScrollbar3::-webkit-scrollbar-thumb,
+#cutomScrollbar4::-webkit-scrollbar-thumb,
+#cutomScrollbar5::-webkit-scrollbar-thumb,
+#cutomScrollbar6::-webkit-scrollbar-thumb,
+#tabScrollbar::-webkit-scrollbar-thumb {
+  background-color: #133159;
+  border-radius: 10px;
+}
+
+.pulse {
+  animation: pulse-animation 2s infinite;
+}
+
+@keyframes pulse-animation {
+  0% {
+    box-shadow: 0 0 0 0px rgba(255, 38, 74, 0.2);
+  }
+
+  100% {
+    box-shadow: 0 0 0 20px rgba(255, 38, 74, 0.0);
+  }
+}
+
+.switch-icon {
+  position: absolute;
+  width: 36px;
+  height: 45px;
+  top: 30px;
+  right: -8px;
+  /*z-index: -1;*/
+  background: #3C7EF3;
+  -webkit-box-shadow: 0px 20px 15px rgb(60 126 243 / 24%);
+  box-shadow: 0px 20px 15px rgb(60 126 243 / 24%);
+  border-radius: 0px 10px 10px 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.switch-icon svg {
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+  cursor: pointer;
+  margin-right: 3px;
+  pointer-events: all;
+}
+
+.switch-icon svg.active {
+  -webkit-transform: rotate(-180deg);
+  -ms-transform: rotate(-180deg);
+  transform: rotate(-180deg);
+  margin-right: 5px;
+}
+
+/**************************************
+Inbox Empty Page CSS  
+**************************************/
+
+.inbox-main-section {
+  height: calc(100vh - 188px);
+}
+
+
+
+.message-info {
+  min-height: auto;
+  height: calc(100vh - 140px);
+}
+
+/* Search Box CSS [Left Section] */
+.search-box {
+  padding: 20px 20px 18px 20px;
+}
+
+.search-box input[type="search"] {
+  background: #F6F7FB;
+  -webkit-box-shadow: rgb(0 0 0 / 15%) 0px 2px 16.6px, inset 4px 4px 2px rgb(8 20 36 / 10%);
+  box-shadow: rgb(0 0 0 / 15%) 0px 2px 16.6px, inset 4px 4px 2px rgb(8 20 36 / 10%);
+  border-radius: 10px;
+  Height: 35.29px;
+  font-family: var(--poppins);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.01em;
+  color: #546376;
+  /* opacity: 0.6; */
+  padding: 0 12px;
+  border: none;
+  margin-bottom: 0;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.search-box input[type="search"]~.material-icons {
+  right: 30px;
+  top: 30px;
+  color: #133159;
+  font-size: 17px;
+}
+
+.search-box input[type=search]:focus:not(.browser-default) {
+  border: 1px solid transparent;
+  background-color: #F6F7FB;
+}
+
+/* Filtering Button CSS [Left Section] */
+.filtering-buttons {
+  padding-right: 18px;
+  padding-top: 2px;
+}
+
+.filtering-buttons a {
+  width: 40px;
+  height: 40px;
+  background: #F6F7FB;
+  border-radius: 6px;
+  text-align: center;
+  margin-left: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+}
+
+/* All Message Tabs CSS [Left Section] */
+.all-message-tabs {
+  clear: both;
+  padding-top: 11px;
+  padding-bottom: 0;
+  padding-left: 18px;
+  padding-right: 10px;
+}
+
+.border-bottom {
+  position: absolute;
+  height: 2px;
+  will-change: left, right;
+  background-color: #E5E8EF;
+  z-index: 1;
+  bottom: 20px;
+  width: 100%;
+  left: 0;
+}
+
+.message-links-tab {
+  height: 60px;
+  overflow-x: hidden;
+}
+
+.message-links-tab .tab {
+  line-height: 40px;
+  height: 40px;
+}
+
+.message-links-tab:after {
+  content: "";
+  width: 97%;
+  height: 2px;
+  background-color: #E5E8EF;
+  display: block;
+  bottom: 20px;
+  position: absolute;
+}
+
+.message-links-tab .tab a {
+  color: #133159;
+  font-size: 14px;
+  padding: 0;
+  line-height: 21px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.message-links-tab .tab a:focus,
+.message-links-tab .tab a:focus.active {
+  background-color: transparent;
+}
+
+.message-links-tab .tab a:hover,
+.message-links-tab .tab a.active {
+  color: #3C7EF3;
+}
+
+.message-links-tab .indicator {
+  background-color: #3C7EF3;
+  z-index: 1;
+  bottom: 20px;
+}
+
+
+/* Message Discussion CSS [Left Section] */
+.all-messages {
+  height: calc(100vh - 327px);
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding-right: 8px;
+}
+
+.message-discussion {
+  padding: 10px 20px;
+  margin: 0 0 18px 0;
+  border: 1px solid #F6F7FB;
+  border-radius: 10px;
+}
+
+.bg-active {
+  background: rgba(60, 126, 243, 0.1);
+}
+
+.message-discussion .user-short-name {
+  padding: 0;
+  margin-right: 14px;
+}
+
+.message-discussion .user-area {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background: #F6F7FB;
+  color: #133159;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 15px;
+  display: inline-block;
+  position: relative;
+}
+
+.message-discussion .user-area i {
+  position: absolute;
+  font-size: 10px;
+}
+
+.message-discussion .user-area i.dots {
+  top: 5px;
+  left: 0px;
+  color: #68EBCA;
+}
+
+.message-discussion .user-area i.bg-icons {
+  bottom: -5px;
+  right: 0;
+  background-color: #fff;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 10px;
+  line-height: 20px;
+}
+
+.message-discussion .user-message {
+  padding-right: 0;
+  padding-left: 7px;
+}
+
+.message-discussion .user-message span.full-name {
+  line-height: 24px;
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: 500;
+  color: #133159;
+}
+
+.message-discussion .user-message span.new {
+  display: inline-block;
+  font-size: 12px;
+  background: #FF264A;
+  color: #fff;
+  border-radius: 100px;
+  width: 36px;
+  text-align: center;
+  font-weight: 500;
+  height: 17px;
+  margin-left: 5px;
+  line-height: 15px;
+  text-transform: lowercase;
+}
+
+.message-discussion .user-message span.hours {
+  font-size: 12px;
+  color: #546376;
+}
+
+.message-discussion .user-message p {
+  font-size: 12px;
+  color: #546376;
+  line-height: 22px;
+  margin: 0;
+}
+
+.message-discussion .user-area i.mail {
+  color: #4277FD;
+}
+
+.message-discussion .user-area i.videocam {
+  color: #F2994A;
+}
+
+.message-discussion .user-area i.voice {
+  color: #4F4F4F;
+}
+
+.message-discussion .user-area i.sms {
+  color: #56CCF2;
+}
+
+.message-discussion .user-area i.phone {
+  color: #27AE60;
+}
+
+/* Top Action Bar CSS [Right Section] */
+.message-info-details {
+  margin-left: 0px;
+  /*min-height: 913px;*/
+  height: calc(100vh - 140px);
+}
+
+.top-action-bar {
+  padding-top: 18px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #E5E8EF;
+  padding-right: 18px;
+}
+
+.top-action-bar ul {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.top-action-bar ul li {
+  margin-left: 14px;
+}
+
+.top-action-bar ul li a {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border: 1px solid #133159;
+  line-height: 30px;
+  transition: 0.3s;
+}
+
+.top-action-bar ul li a:hover {
+  background-color: #E5E8EF;
+  color: #fff;
+}
+
+/* No Data Found CSS [Right Section] */
+.no-data-found {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.no-data-found img {
+  margin-top: 98px;
+  margin-bottom: 105px;
+}
+
+.no-data-found h3 {
+  margin: 0;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #333333;
+}
+
+.no-data-found p {
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: #546376;
+  margin: 0;
+}
+
+/* Send Message Button CSS [Right Section] */
+.send-message-btn {
+  padding-right: 20px;
+  padding-bottom: 30px;
+  /* position: absolute;
+  bottom: 0;
+  right: 0; */
+}
+
+.send-message-btn a {
+  background: #3C7EF3;
+  border-radius: 10px;
+  padding: 12px 15px;
+  display: inline-block;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+}
+
+.send-message-btn a i {
+  width: 26px;
+  height: 26px;
+  background: #fff;
+  color: #3C7EF3;
+  border-radius: 13px;
+  font-size: 12px;
+  display: inline-block;
+  text-align: center;
+  line-height: 26px;
+  margin-right: 10px;
+}
+
+/**************************************
+Inbox Empty Page CSS  
+**************************************/
+
+.user-message-info {
+  min-height: auto;
+  height: calc(100vh - 140px);
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.no-details-found {
+  text-align: center;
+  margin-top: 10px;
+  padding: 0 17px 0 11px;
+}
+
+.no-details-found h3 {
+  margin: 0;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #333333;
+}
+
+.no-details-found p {
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: #546376;
+  margin: 0;
+}
+
+/**************************************
+Inbox Expand SMS CSS  
+**************************************/
+
+.dat-chip {
+  position: absolute;
+  -webkit-transform: translate(-50%, 12px);
+  -ms-transform: translate(-50%, 12px);
+  transform: translate(-50%, 12px);
+  left: 50%;
+  width: 142px;
+  height: 22px;
+  background: #E5E8EF;
+  border-radius: 100px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #546376;
+  text-align: center;
+  z-index: 5;
+}
+
+.user-name-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.user-name-area .user-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 9px;
+}
+
+.user-name-area p {
+  margin: 0 0 8px 0;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.01em;
+  color: #333333;
+}
+
+.user-name-area span {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: #546376;
+}
+
+.audio-setup ul li span {
+  font-size: 12px;
+  color: #546376;
+}
+
+.audio-setup ul li svg {
+  vertical-align: middle;
+}
+
+/* Chatbox CSS [Main Section]*/
+.chat__bottom_wrapper {
+  height: 100%;
+}
+
+.chatbox-area {
+  /* border: 2px solid #71D8AE; */
+  overflow-y: auto;
+  overflow-x: hidden;
+  /* height: calc(100% - 480px); */
+  height: calc(100% - 380px);
+  min-height: auto;
+  padding-bottom: 30px;
+  padding-top: 25px;
+}
+
+.chatbox-empty {
+  /* border: 2px solid #71D8AE; */
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: calc(100% - 60px);
+  min-height: auto;
+  padding-bottom: 30px;
+  padding-top: 25px;
+}
+
+.chatbox-area.inbox-text-active {
+  /* height: calc(100% - 390px); */
+  height: calc(100% - 341px);
+}
+
+/* .chatbox-area.inbox-email-active {
+  height: calc(100% - 430px);
+}  */
+
+.chatbox-area.inbox-video-email-active,
+.chatbox-area.inbox-email-active {
+  /* height: calc(100% - 430px); */
+  height: calc(100% - 381px);
+}
+
+.chatbox-area.inbox-voice-active {
+  height: calc(100% - 363px);
+}
+
+.chatbox-area.inbox-directmail-active {
+  height: calc(100% - 297px);
+}
+
+.chatbox-area.inbox-chat-active {
+  height: calc(100% - 294px);
+}
+
+.chatbox-area.inbox-note-active {
+  height: calc(100% - 294px);
+}
+
+/* Reply Message Component CSS [Chatbox Area] */
+.chatbox-area .reply-messages {
+  margin-bottom: 15px;
+}
+
+.chatbox-area .reply-messages .user-short-name {
+  padding: 0 20px;
+}
+
+.chatbox-area .reply-messages .user-short-name span {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background: #133159;
+  display: inline-block;
+  font-weight: 500;
+  font-size: 20px;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 50px;
+}
+
+.chatbox-area .reply-messages .chat-text {
+  background: #F6F7FB;
+  border-radius: 10px 10px 10px 0px;
+  padding: 12px 15px;
+}
+
+.chatbox-area .reply-messages .chat-text p {
+  margin: 0;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  color: #546376;
+}
+
+.chatbox-area .reply-messages .chat-text p span {
+  padding-right: 7px;
+  display: inline-block;
+}
+
+.chatbox-area .reply-messages .dropdown-icon .dropdown-trigger {
+  color: #E5E8EF;
+  display: inline-block;
+  margin-left: -10px;
+}
+
+.chatbox-area .reply-messages .dropdown-icon {
+  position: absolute;
+  right: -15px;
+  top: 45%;
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+}
+
+.chatbox-area .text-messages .dropdown-icon {
+  position: absolute;
+  left: -25px;
+  top: 45%;
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+}
+
+.chatbox-area .reply-messages .activation-time {
+  margin-right: 0px;
+}
+
+.chatbox-area .reply-messages .activation-time span {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: rgba(19, 49, 89, 0.35);
+}
+
+.reply-messages .activation-time span i {
+  font-size: 13.5px;
+  color: #F2994A;
+  vertical-align: middle;
+  margin-right: 7px;
+}
+
+.reply-messages .activation-time span svg {
+  vertical-align: middle;
+  margin-left: 7px;
+}
+
+/* Text Messsage Component CSS [Chatbox Area] */
+.chatbox-area .text-messages {
+  margin-bottom: 15px;
+  padding: 0 13% 0 0;
+}
+
+.chatbox-area .text-messages .dropdown-icon .dropdown-trigger {
+  color: #133159;
+  display: inline-block;
+}
+
+.chatbox-area .text-messages .chat-text {
+  padding: 12px 15px;
+  background: rgba(60, 126, 243, 0.1);
+  border-radius: 10px 10px 0px 10px;
+}
+
+.chatbox-area .text-messages .chat-text p {
+  margin: 0;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #133159;
+}
+
+.chatbox-area .text-messages .activation-time {
+  margin-left: 25px;
+}
+
+.chatbox-area .text-messages .activation-time span {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: rgba(19, 49, 89, 0.65);
+}
+
+.chatbox-area .text-messages .activation-time svg {
+  vertical-align: middle;
+  margin-left: 7px;
+}
+
+.chatbox-area .text-messages .activation-time i {
+  font-size: 13.5px;
+  color: #27AE60;
+  vertical-align: middle;
+  margin-right: 7px;
+}
+
+.chatbox-area .text-messages .activation-time i.voice {
+  color: #4F4F4F;
+}
+
+
+/* Owner Contact Component CSS */
+.owner-contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 20px 20px 10px 20px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 10px;
+}
+
+.owner-contact .owner-brand {
+  padding: 20px 0 20px 0;
+}
+
+.owner-contact .owner-brand img {
+  width: 60px;
+  height: 60px;
+  display: block;
+  background: #133159;
+  padding: 10px;
+  border-radius: 30px;
+}
+
+.owner-contact .owner-identity {
+  margin-bottom: 8px;
+}
+
+.owner-contact .owner-identity h1 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #133159;
+  margin: 0;
+}
+
+.owner-contact .owner-identity h2 {
+  margin: 0;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #546376;
+}
+
+.owner-contact .owner-communication {
+  margin-bottom: 8px;
+}
+
+.owner-contact .owner-communication p {
+  color: #546376;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  margin: 0 0 3px 0;
+}
+
+.owner-contact .owner-communication span {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.01em;
+  color: #8896A8;
+}
+
+.owner-contact .edit-information {
+  padding-bottom: 15px;
+}
+
+.owner-contact .edit-information a {
+  color: #3C7EF3;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.01em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.owner-contact .edit-information a i {
+  font-size: 8px;
+  width: 16px;
+  height: 16px;
+  border-radius: 8px;
+  display: inline-block;
+  text-align: center;
+  line-height: 16px;
+  background: rgba(60, 126, 243, 0.1);
+  margin-right: 8px;
+  color: #3C7EF3;
+}
+
+/* lead owner component css */
+.lead-owner {
+  padding: 10px;
+  background: #133159;
+  margin: 0 10px 10px 10px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.lead-owner svg {
+  margin-left: 21px;
+  margin-right: 18px;
+  vertical-align: middle;
+}
+
+.lead-owner span {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 34px;
+  color: #fff;
+  margin-right: 0;
+}
+
+.lead-owner input[type="text"] {
+
+  height: 30px;
+  background: #fff;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 34px;
+  color: #3C7EF3;
+  padding: 0 0 0 11px;
+  margin: 0;
+  width: 115px;
+}
+
+/* collaborators component css */
+.collaborators .collapsible {
+  border: 0;
+  margin: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.collaborators .collapsible-header {
+  color: #fff;
+  border: 0;
+  background: #133159;
+  margin: 0 10px 10px 10px;
+  border-radius: 10px 10px 0px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.collaborators .collapsible-header .left-icons {
+  padding-left: 21px;
+}
+
+.collaborators .collapsible-header .left-icons svg {
+  margin-right: 20px;
+}
+
+
+.collaborators .collapsible-header .left-icons span.title {
+  margin-right: 4px;
+}
+
+.collaborators .collapsible-header .left-icons span.number-badge {
+  width: 26px;
+  height: 26px;
+  background: #fff;
+  color: #3C7EF3;
+  border-radius: 13px;
+  text-align: center;
+  line-height: 28px;
+  display: inline-block;
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.collaborators .collapsible-header .right-icons {
+  padding-right: 10px;
+}
+
+.collaborators .collapsible-header .right-icons i {
+  width: 26px;
+  height: 26px;
+  background: #fff;
+  color: #3C7EF3;
+  border-radius: 13px;
+  text-align: center;
+  line-height: 26px;
+  display: inline-block;
+  font-weight: 500;
+  margin-right: 20px;
+  font-size: 14px;
+}
+
+.collaborators .collapsible-body {
+  border: 0;
+  -webkit-box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.04);
+  box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.04);
+  margin: 0 10px 10px 10px;
+  border-radius: 0px 0px 6px 6px;
+  padding: 0 0 14px 0;
+}
+
+.collaborators .collapsible-body .listing {
+  padding-left: 24px;
+  padding-right: 26px;
+  padding-bottom: 4px;
+}
+
+.collaborators .collapsible-body .listing span {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #546376;
+  letter-spacing: 0.01em;
+}
+
+.collaborators .collapsible-header .left-icons img {
+  margin-right: 20px;
+}
+
+/* Deals component css */
+.deals .collapsible-body {
+  padding-bottom: 12px;
+}
+
+.deals .collapsible-header .left-icons span.title {
+  margin-right: 14px;
+}
+
+.deals .collapsible-body .listing {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 18px;
+}
+
+.deals .collapsible-body .listing a {
+  background: #E5E8EF;
+  color: rgba(19, 49, 89, 0.65);
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  height: 24px;
+  display: block;
+  width: 89px;
+  text-align: center;
+}
+
+.deals .collapsible-body .listing a:first-child {
+  background: #3C7EF3;
+  color: #fff;
+}
+
+.deals .collapsible-body .listing-content {
+  padding-left: 25px;
+  padding-right: 0;
+  padding-bottom: 12px;
+}
+
+.deals .collapsible-body .listing-content span {
+  margin-right: 15px;
+}
+
+.deals .collapsible-body .listing-content a {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 40px;
+  padding: 0 5px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 23px;
+  width: 71px;
+  height: 24px;
+  display: inline-block;
+  text-align: center;
+}
+
+.deals .collapsible-body .listing-content a.won {
+  color: #6FCF97;
+  border: 1px solid #6FCF97;
+  margin-right: 5px;
+}
+
+.deals .collapsible-body .listing-content a.lost {
+  color: #EB5757;
+  border: 1px solid #EB5757;
+}
+
+.deals .collapsible-body .listing-content a.lost img {
+  vertical-align: middle;
+}
+
+/* Campaigns component css */
+.campaigns .collapsible-header .left-icons span.title {
+  margin-right: 21px;
+}
+
+.campaigns .collapsible-header .left-icons img {
+  margin-right: 14px;
+}
+
+.campaigns .collapsible-body {
+  padding: 0 0 7px 0;
+}
+
+.campaigns .collapsible-body .listing {
+  padding-bottom: 16px;
+  padding-left: 20px;
+  padding-right: 16px;
+
+}
+
+.campaigns .collapsible-body .listing a {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #6FCF97;
+  border-radius: 10px;
+  font-size: 10px;
+  line-height: 16px;
+  color: #fff;
+  padding: 0 4px;
+  width: 98px;
+  height: 20px;
+}
+
+.campaigns .collapsible-body .listing a i:first-child {
+  font-size: 14px;
+  padding-right: 7px;
+}
+
+.campaigns .collapsible-body .listing a i:last-child {
+  font-size: 16px;
+  padding-left: 4px;
+}
+
+/* Completed forms component css */
+.completed-forms .collapsible-header .left-icons span.number-badge {
+  margin-left: 22px;
+}
+
+.completed-forms .collapsible-header {
+  margin-bottom: 6px;
+}
+
+.completed-forms .collapsible-body .form-name {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 5px;
+}
+
+.completed-forms .collapsible-body .form-name span {
+  margin-bottom: 5px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+}
+
+.completed-forms .collapsible-body .form-name span.name {
+  color: #133159;
+}
+
+.completed-forms .collapsible-body .form-name span.date {
+  color: #546376;
+}
+
+.completed-forms .collapsible-body {
+  padding: 0 0 7px 0;
+}
+
+/**************************************
+Inbox Expand SMS-2 CSS with others pages  
+**************************************/
+.info-links {
+  padding: 30px 20px 0 20px;
+}
+
+.info-links span {
+
+  display: inline-block;
+  text-align: center;
+  line-height: 30px;
+  margin-right: 10px;
+  margin-top: -5px;
+  cursor: pointer;
+}
+
+
+.info-links span i.close {
+  width: 22px;
+  height: 22px;
+  border-radius: 11px;
+  background: #FF264A;
+  color: #fff;
+  font-size: 10px;
+  line-height: 22px;
+  box-shadow: 0px 0px 1px 1px #ff264a;
+  display: block;
+  text-align: center;
+}
+
+.info-links ul {
+  margin: 0;
+  padding: 0;
+  box-shadow: none;
+}
+
+.info-links ul li {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.info-links ul li a {
+  border: 1px solid rgba(60, 126, 243, 0.1);
+  height: 40px;
+  display: inline-block;
+  line-height: 40px;
+  text-align: center;
+  padding: 0 12px;
+  margin: 0 -2px 0 -2px;
+  font-weight: normal;
+  font-size: 12px;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.info-links .tabs .tab a {
+  color: #133159;
+  text-transform: capitalize;
+  font-size: 12px;
+  padding: 0;
+}
+
+.info-links ul li a:hover,
+.info-links ul li a.active {
+  color: #3C7EF3 !important;
+}
+
+.info-links .ul li a,
+.info-links .ul li a.active svg path,
+.info-links .ul li a.active svg ellipse {
+  color: #3c7ef3;
+  fill: #3c7ef3 !important;
+}
+
+.info-links ul li a svg {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.info-links ul li a img {
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+.info-links .tabs .indicator {
+  height: 0;
+  background-color: transparent;
+}
+
+.info-links .tabs .tab a:focus,
+.info-links .tabs .tab a:focus.active {
+  background-color: transparent;
+  outline: none;
+}
+
+.info-links .tabs .tab a:focus,
+.info-links .tabs .tab a:focus.active {
+  color: #3c7ef3;
+}
+
+.info-links .tabs {
+  height: 40px;
+  margin-bottom: 5px;
+}
+
+.info-links .tabs .tab {
+  height: 40px;
+  line-height: 40px;
+}
+
+.info-links .tabs .tab a:focus,
+.info-links .tabs .tab a:focus.active svg path,
+.info-links .tabs .tab a:focus.active svg ellipse {
+  color: #3c7ef3;
+  fill: #3c7ef3;
+}
+
+.info-links ul li:nth-last-of-type(2) a {
+  border-radius: 0px 10px 10px 0px;
+}
+
+
+.info-links ul li:first-child a {
+  border-radius: 10px 0px 0px 10px;
+}
+
+.info-links ul li:last-child a {
+  border-radius: 0px 10px 10px 0px;
+}
+
+
+/* Catagory area css */
+.catagory-area {
+  padding: 0 20px;
+}
+
+.number-input-field {
+  position: relative;
+}
+
+.number-input-field svg {
+  position: absolute;
+  right: 30px;
+  top: 15px;
+}
+
+.number-input-field .select-wrapper .caret {
+  display: none;
+}
+
+.number-input-field .select-wrapper input.select-dropdown {
+  font-size: 14px;
+  line-height: 21px;
+  color: #133159;
+  border: 1px solid rgba(60, 126, 243, 0.1);
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 0 15px;
+  height: 39px;
+  font-weight: 400;
+}
+
+.personiliz-input-field .select-wrapper input.select-dropdown {
+  padding: 0 50px;
+}
+
+.personiliz-input-field svg {
+  right: 45px;
+  top: 16px;
+}
+
+.email-input-filed .select-wrapper input.select-dropdown {
+  font-size: 14px;
+  line-height: 28px;
+  color: #546376;
+}
+
+.email-input-filed svg {
+  right: 20px;
+  top: 17px;
+}
+
+.personiliz-input-field-2 .select-wrapper input.select-dropdown {
+  font-size: 14px;
+  line-height: 28px;
+  color: #546376;
+}
+
+.personiliz-input-field-2 svg {
+  right: 20px;
+  top: 17px;
+}
+
+.subject-input-field input[type="text"] {
+  border: 1px solid #E5E8EF;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 10px;
+  height: 40px;
+  font-size: 14px;
+  line-height: 28px;
+  color: #546376;
+  padding-left: 10px;
+  margin-bottom: 0;
+  box-shadow: none;
+
+}
+
+.tiny-mce {
+  padding: 0 20px;
+}
+
+.send-button-area {
+  padding: 0 20px;
+  margin-top: 10px;
+}
+
+.quick-reply a {
+  width: 168px;
+  height: 40px;
+  border: 1px solid rgba(60, 126, 243, 0.1);
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 10px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: #133159;
+  display: inline-block;
+  line-height: 40px;
+  text-align: center;
+}
+
+.quick-reply svg {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.sendemail {
+  margin: 0 0 10px 0;
+}
+
+.sendemail ul li {
+  display: inline-block;
+}
+
+.sendemail ul li a {
+  padding: 0 8px;
+  display: inline-block;
+  border-radius: 5px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 30px;
+  text-align: center;
+  background: rgba(60, 126, 243, 0.1);
+  color: #3C7EF3;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.sendemail ul li a.active,
+.sendemail ul li a:hover {
+  background-color: #3C7EF3;
+  color: #fff;
+}
+
+/* Audio Design CSS */
+.audio-voice .card {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  padding: 10px 10px 17px 10px;
+  margin: 3px 20px 0 20px;
+  background: rgba(60, 126, 243, 0.1);
+  border-radius: 10px;
+}
+
+.audio-voice .card p.title {
+  margin: 0 0 18px 0;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: #133159;
+  letter-spacing: 0.01em;
+}
+
+.audio-voice .card p.alert-title {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.01em;
+  color: #FF6B6B;
+  margin: 15px 0 0 0;
+}
+
+.audio-voice .card p.alert-title i {
+  vertical-align: middle;
+  margin-right: 8px;
+  color: #FF6B6B;
+}
+
+.audio-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0 35px;
+}
+
+.audio-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.icon-record {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-right: 40px;
+}
+
+.icon-record a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 40px;
+  height: 40px;
+  background: rgba(60, 126, 243, 0.1);
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border-radius: 20px;
+  margin-bottom: 5px;
+}
+
+.icon-record a img {}
+
+.icon-record span {
+  display: block;
+  font-weight: normal;
+  font-size: 14px;
+  color: #546376;
+  line-height: 26px;
+}
+
+
+
+
+/* Direct Mail CSS */
+.direct-mail .card {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  padding: 10px 10px 17px 10px;
+  margin: 3px 20px 0 20px;
+  background: rgba(60, 126, 243, 0.1);
+  border-radius: 10px;
+}
+
+.direct-mail .card p {
+  margin: 5px 0 10px 0;
+  letter-spacing: 0.01em;
+  color: #333333;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px
+}
+
+.direct-mail .card-listing {
+  padding-top: 6px;
+  padding-bottom: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+}
+
+.direct-mail .card-listing a {
+  background: rgba(60, 126, 243, 0.1);
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 40px;
+  width: 170px;
+  margin-left: 5px;
+  display: inline-block;
+  height: 40px;
+  margin-right: 5px;
+  color: #3C7EF3;
+}
+
+.tox .tox-statusbar {
+  display: none !important;
+}
+
+.tox-tinymce {
+  border-radius: 10px !important;
+}
+
+audio,
+video {
+  max-width: 100%;
+  margin-top: 15px;
+}
+
+
+.audio-setup {
+  margin-left: 0;
+}
+
+.audio-setup ul {
+  padding: 0;
+  margin: 0;
+}
+
+.audio-setup ul li {
+  display: inline-block;
+  list-style-type: none;
+  margin-right: 7px;
+  vertical-align: middle;
+}
+
+.audio-setup ul li.range-field {
+  width: 85px;
+}
+
+input[type=range] {
+  -webkit-appearance: none;
+}
+
+
+input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 10px;
+  background: #3C7EF3;
+  border: none;
+  border-radius: 12px;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border: none;
+  height: 16px;
+  width: 16px;
+  border-radius: 100%;
+  background: #fff;
+  margin-top: -5px;
+  border: 2px solid #fff;
+}
+
+input[type=range]:focus {
+  outline: none;
+  background: #D9E6FD;
+}
+
+
+
+
+input[type=range] {
+  /* fix for FF unable to apply focus style bug  */
+  border: 1px solid transparent;
+  vertical-align: middle;
+  margin: 0;
+
+  /*required for proper track sizing in FF*/
+  width: 100%;
+}
+
+input[type=range]::-moz-range-track {
+  width: 100%;
+  height: 10px;
+  background: #3C7EF3;
+  border: none;
+  border-radius: 12px;
+
+}
+
+input[type=range]::-moz-range-thumb {
+  border: none;
+  height: 16px;
+  width: 16px;
+  border: 2px solid #fff;
+  border-radius: 100%;
+  background: #3C7EF3;
+}
+
+/*hide the outline behind the border*/
+input[type=range]:-moz-focusring {
+  outline: 1px solid white;
+  outline-offset: -1px;
+}
+
+input[type=range]:focus::-moz-range-track {
+  background: #D9E6FD;
+}
+
+input[type="range"]::-moz-range-progress {
+  background-color: #3C7EF3;
+  height: 10px;
+  border-radius: 10px;
+}
+
+input[type="range"]::-moz-range-track {
+  background-color: #D9E6FD;
+  height: 10px;
+  border-radius: 10px;
+}
+
+
+input[type=range]::-ms-track {
+  width: 100%;
+  height: 10px;
+
+  /*remove background color from the track, instead backgrond we'll use ms-fill-lower and ms-fill-upper */
+  background: transparent;
+
+  /*leave room for the larger thumb to overflow with a transparent border */
+  border-color: transparent;
+  border-width: 10px 0;
+
+  /*remove default tick marks*/
+  color: transparent;
+}
+
+input[type=range]::-ms-fill-lower {
+  background: #3C7EF3;
+  border-radius: 12px;
+}
+
+input[type=range]::-ms-fill-upper {
+  background: #dddddd;
+  border-radius: 12px;
+}
+
+input[type=range]::-ms-thumb {
+  border: none;
+  height: 16px;
+  width: 16px;
+  border-radius: 100%;
+  background: #3C7EF3;
+  border: 2px solid #fff;
+}
+
+input[type=range]:focus::-ms-fill-lower {
+  background: #3C7EF3;
+}
+
+input[type=range]:focus::-ms-fill-upper {
+  background: #D9E6FD;
+}
+
+
+
+/*****************************************
+inbox right side slide
+****************************************/
+
+.right_sidebar_active {}
+
+.main__content .main-inbox_column {
+  transition: all 0.5s ease-in-out;
+  width: 75% !important;
+}
+
+.inbox-right-side {
+  transition: all 0.5s ease-in-out;
+  width: 0% !important;
+}
+
+.right_sidebar_active .main-inbox_column {
+  width: 50% !important;
+}
+
+.right_sidebar_active .inbox-right-side {
+  width: 25% !important;
+}

@@ -1,0 +1,1546 @@
+@media(min-width:1600px) and (max-width:1920px) {
+  .col-xxl-8 {
+    width: 72% !important;
+  }
+
+  .col-xxl-4 {
+    width: 28% !important;
+  }
+
+  .col-xxl-6 {
+    width: 44% !important;
+  }
+
+  .col-xxl-3 {
+    width: 40% !important;
+  }
+
+
+  .col-xxl-12 {
+    width: 100% !important;
+  }
+
+
+  .message-links-tab .tab a {
+    padding: 0;
+  }
+
+  .message-links-tab .tab a {
+    font-size: 13px;
+  }
+
+  .top-action-bar {
+    padding-bottom: 0;
+    padding-top: 10px;
+  }
+
+  .chatbox-area .text-messages {
+    margin-bottom: 5px;
+    padding: 0 13% 0 0;
+  }
+
+  .top-action-bar>.row {
+    margin-bottom: 8px;
+  }
+
+  .dat-chip {
+    transform: translate(-50%, -12px);
+    font-size: 12px;
+  }
+
+  .send-message-btn a i {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .chatbox-area {
+    /* height: calc(100vh - 560px); */
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+
+  .number-input-field .select-wrapper input.select-dropdown {
+    font-size: 12px;
+  }
+
+  .chatbox-area .reply-messages {
+    margin-bottom: 5px;
+  }
+
+  .send-button-area {
+    margin-top: 10px;
+  }
+
+  .direct-mail .card {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  .audio-voice .card {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .direct-mail .card p {
+    margin-bottom: 15px;
+  }
+
+  .message-discussion .user-message span.full-name {
+    font-size: 13px;
+  }
+
+  .message-discussion .user-message span.new {
+    font-size: 10px;
+    width: 30px;
+    height: 16px;
+  }
+
+  .top-action-bar ul li a {
+    width: 26px;
+    height: 26px;
+    border-radius: 13px;
+    line-height: 26px;
+  }
+
+  .user-name-area p {
+    font-size: 13px;
+    margin-bottom: 0;
+  }
+
+  .user-name-area span {
+    font-size: 12px;
+  }
+
+  .lead-owner input[type="text"] {
+    width: 83px;
+  }
+
+  .deals .collapsible-body .listing a {
+    width: 70px;
+  }
+
+  .collaborators .collapsible-body .listing span {
+    font-size: 12px;
+  }
+
+  .campaigns .collapsible-header .left-icons span.title {
+    margin-right: 14px;
+  }
+
+  .completed-forms .collapsible-header .left-icons span.number-badge {
+    margin-left: 14px;
+  }
+
+  .p-xxl-0 {
+    padding: 0 !important;
+  }
+
+  .send-message-btn a {
+    padding: 10px;
+    font-size: 14px;
+    margin-top: 0;
+  }
+
+
+
+  .send-message-btn {
+    padding-right: 0;
+    padding-bottom: 15px;
+    padding-left: 0;
+  }
+
+  .email-input-filed .select-wrapper input.select-dropdown,
+  .subject-input-field input[type="text"],
+  .personiliz-input-field-2 .select-wrapper input.select-dropdown {
+    font-size: 12px;
+  }
+
+  .audio-wrapper {
+    padding: 0;
+  }
+
+  .icon-record {
+    margin-right: 20px;
+  }
+
+  .icon-record span {
+    font-size: 12px;
+  }
+
+
+  .direct-mail .card-listing a {
+    margin-right: 0;
+    font-size: 11px;
+  }
+
+  .lead-owner svg {
+    margin-left: 10px;
+    margin-right: 5px;
+  }
+
+  .collaborators .collapsible-header .left-icons {
+    padding-left: 10px;
+  }
+
+  .collaborators .collapsible-header .left-icons svg,
+  .collaborators .collapsible-header .left-icons img {
+    margin-right: 10px;
+  }
+
+  .owner-contact .owner-identity h2,
+  .owner-contact .owner-identity h1 {
+    font-size: 14px;
+  }
+
+  .owner-contact .owner-communication p,
+  .owner-contact .owner-communication span,
+  .owner-contact .edit-information a,
+  .chatbox-area .reply-messages .chat-text p,
+  .chatbox-area .text-messages .chat-text p,
+  .lead-owner span {
+    font-size: 13px;
+  }
+
+  .chatbox-area .reply-messages .chat-text {
+    padding: 5px 10px;
+  }
+
+  .chatbox-area>.row {
+    margin-bottom: 0;
+  }
+
+  .chatbox-area .reply-messages .user-short-name span {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 14px;
+    line-height: 40px;
+  }
+
+  .chatbox-area .reply-messages .user-short-name {
+    padding: 0 10px;
+  }
+
+  .completed-forms .collapsible-body .form-name {
+    padding-left: 19px;
+    padding-right: 19px;
+  }
+
+  .completed-forms .collapsible-body,
+  .campaigns .collapsible-body,
+  .deals .collapsible-body {
+    padding: 0;
+  }
+
+  .info-links {
+    padding-top: 10px;
+  }
+
+  .info-links ul li a svg {
+    width: 12px;
+  }
+
+  .info-links ul li a img {
+    margin-right: 5px;
+    width: 12px;
+  }
+
+  .info-links ul li a img.voice-img {
+    width: 8px;
+  }
+
+  .info-links ul li a {
+    padding: 0 7px;
+    font-size: 10px;
+  }
+
+  .info-links span i.close {
+    width: 18px;
+    height: 18px;
+    border-radius: 9px;
+    font-size: 8px;
+    line-height: 18px;
+  }
+
+  .personiliz-input-field .select-wrapper input.select-dropdown {
+    padding: 0 30px;
+    font-size: 12px;
+  }
+
+  .quick-reply a {
+    font-size: 11px;
+  }
+
+  .sendemail ul li a {
+    font-size: 12px;
+  }
+
+  .quick-reply svg {
+    width: 8px;
+  }
+
+  .audio-setup ul li svg {
+    width: 12px;
+  }
+
+
+  .audio-setup ul li.range-field {
+    width: 75px;
+  }
+
+  /* .audio-setup ul li.range-field input[type="range"] {
+    width: 50%;
+  } */
+
+  .icon-record a img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .icon-record a {
+    align-items: center;
+  }
+
+  .no-data-found img {
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+}
+
+@media(min-width:1366px) and (max-width:1599px) {
+
+  .col-xxl-8 {
+    width: 72% !important;
+  }
+
+  .col-xxl-4 {
+    width: 28% !important;
+  }
+
+  .col-xxl-8 {
+    width: 72% !important;
+  }
+
+  .col-xxl-6 {
+    width: 44% !important;
+  }
+
+  .col-xxl-3 {
+    width: 40% !important;
+  }
+
+  .p-xxl-0 {
+    padding: 0 !important;
+  }
+
+  .message-info-details {
+    margin-left: 0;
+  }
+
+  /* .pl-xxl-0 {
+    padding-left: 0 !important;
+  } */
+
+  /* .pr-xxl-0 {
+    padding-right: 0 !important;
+  } */
+
+  .audio-voice .card {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .message-links-tab .tab a {
+    font-size: 11px;
+  }
+
+  .message-discussion .user-message span.full-name {
+    font-size: 11px;
+  }
+
+  .message-discussion .user-message span.hours {
+    font-size: 10px;
+  }
+
+  .message-discussion .user-area {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 11px;
+    line-height: 18px;
+    padding: 10px;
+  }
+
+  .no-details-found h3,
+  .no-data-found h3 {
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .no-details-found p,
+  .no-data-found p {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .message-discussion .user-message span.new {
+    font-size: 8px;
+    width: 25px;
+    height: 15px;
+  }
+
+  .chatbox-area {
+    /* height: calc(100vh - 660px); */
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+
+  .chatbox-area {
+    height: calc(100% - 400px);
+  }
+
+  .chatbox-empty.chatbox-area {
+    height: calc(100% - 70px);
+  }
+
+  .inbox-main-section {
+    height: calc(100vh - 218px);
+  }
+
+  .chatbox-area.inbox-text-active {
+    height: calc(100% - 361px);
+  }
+
+  .chatbox-area.inbox-email-active,
+  .chatbox-area.inbox-video-email-active {
+    height: calc(100% - 402px);
+  }
+
+  /* .chatbox-area.inbox-video-email-active {
+    height: calc(100% - 480px);
+  } */
+
+  .chatbox-area.inbox-voice-active {
+    height: calc(100% - 377px);
+  }
+
+  .chatbox-area.inbox-directmail-active {
+    height: calc(100% - 347px);
+  }
+
+  .chatbox-area.inbox-chat-active,
+  .chatbox-area.inbox-note-active {
+    height: calc(100% - 314px);
+  }
+
+
+
+
+  .width-xxl {
+    width: 100% !important;
+  }
+
+  .user-name-area {
+    margin-bottom: 20px;
+  }
+
+  .top-action-bar ul li a {
+    width: 24px;
+    height: 24px;
+    border-radius: 12px;
+    line-height: 24px;
+  }
+
+  .top-action-bar ul li a svg {
+    width: 11px;
+  }
+
+  .top-action-bar ul li {
+    margin-left: 7px;
+  }
+
+  .message-discussion .user-message p {
+    font-size: 11px;
+  }
+
+
+  .lead-owner svg {
+    margin-left: 0px;
+    margin-right: 5px;
+    width: 12px;
+  }
+
+  .lead-owner input[type="text"] {
+    width: 60px;
+    font-size: 12px;
+    line-height: 8px;
+  }
+
+  .collaborators .collapsible-header .left-icons {
+    padding-left: 0px;
+  }
+
+  .collaborators .collapsible-header .left-icons svg,
+  .collaborators .collapsible-header .left-icons img {
+    margin-right: 10px;
+    width: 12px;
+  }
+
+  .collaborators .collapsible-header .left-icons img {
+    width: 16px;
+  }
+
+  .campaigns .collapsible-header .left-icons span.title {
+    margin-right: 7px;
+  }
+
+  .campaigns .collapsible-body .listing {
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+
+  .collaborators .collapsible-body .listing span {
+    font-size: 11px;
+  }
+
+  .completed-forms .collapsible-header .left-icons img {
+    width: 10px;
+  }
+
+  .collaborators .collapsible-header .left-icons span.title,
+  .owner-contact .owner-identity h1,
+  .owner-contact .owner-communication p,
+  .owner-contact .owner-communication span,
+  .owner-contact .edit-information a,
+  .chatbox-area .reply-messages .chat-text p,
+  .chatbox-area .text-messages .chat-text p,
+  .lead-owner span,
+  .dat-chip {
+    font-size: 12px;
+  }
+
+  .owner-contact .owner-identity h1,
+  .owner-contact .owner-identity h2 {
+    font-size: 11px;
+  }
+
+  .completed-forms .collapsible-header .left-icons span.number-badge {
+    margin-left: 7px;
+  }
+
+  .collaborators .collapsible-header .left-icons span.number-badge,
+  .collaborators .collapsible-header .right-icons i {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    line-height: 20px;
+    font-size: 12px;
+  }
+
+  .collaborators .collapsible-header .left-icons span.number-badge {
+    font-size: 10px;
+  }
+
+  .deals .collapsible-body .listing a {
+    font-size: 12px;
+    line-height: 20px;
+    height: 20px;
+    width: 50px;
+  }
+
+  .deals .collapsible-body .listing-content a {
+    width: 60px;
+    font-size: 12px;
+  }
+
+  .deals .collapsible-body .listing-content a img {
+    width: 12px
+  }
+
+  .campaigns .collapsible-body .listing a {
+    width: 75px;
+    padding: 0 2px;
+  }
+
+  .campaigns .collapsible-body .listing a i:first-child {
+    font-size: 12px;
+    padding-right: 2px;
+  }
+
+  .campaigns .collapsible-body .listing a i:last-child {
+    font-size: 12px;
+    padding-left: 2px;
+  }
+
+  .chatbox-area .reply-messages .user-short-name span {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    font-size: 12px;
+    line-height: 30px;
+  }
+
+  .chatbox-area .reply-messages .user-short-name {
+    padding: 0 5px;
+  }
+
+  .completed-forms .collapsible-body .form-name {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .completed-forms .collapsible-body,
+  .campaigns .collapsible-body,
+  .deals .collapsible-body {
+    padding: 0;
+  }
+
+  .chatbox-area .reply-messages .user-short-name {
+    padding: 0 5px;
+  }
+
+  .chatbox-area .reply-messages .chat-text p,
+  .chatbox-area .text-messages .chat-text p,
+  .chatbox-area .text-messages .activation-time span,
+  .chatbox-area .reply-messages .activation-time span {
+    font-size: 12px;
+  }
+
+  .user-name-area p {
+    margin: 0 0 4px 0;
+    font-size: 14px;
+    line-height: 23px;
+  }
+
+  .chatbox-area .reply-messages .chat-text p svg {
+    width: 14px;
+  }
+
+  .width-xxl-75 {
+    width: 75% !important;
+  }
+
+  .info-links ul li a svg {
+    width: 10px;
+    margin-right: 0;
+  }
+
+  .info-links ul li a img {
+    margin-right: 2px;
+    width: 10px;
+  }
+
+  .info-links ul li a img.voice-img {
+    width: 7px;
+  }
+
+  .info-links ul li a {
+    padding: 0 5px;
+    font-size: 9px;
+  }
+
+  .info-links span i.close {
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    font-size: 8px;
+    line-height: 16px;
+  }
+
+  .personiliz-input-field {
+    width: 200px !important;
+  }
+
+  .personiliz-input-field svg {
+    left: 145px;
+    right: inherit;
+  }
+
+
+
+  .send-message-btn {
+    padding-bottom: 15px;
+    margin-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .send-message-btn a {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .send-message-btn a i {
+    width: 18px;
+    height: 18px;
+    border-radius: 9px;
+    font-size: 10px;
+    line-height: 18px;
+    margin-right: 5px;
+    margin-top: 3px;
+  }
+
+  .quick-reply a {
+    width: 100%;
+    font-size: 11px;
+  }
+
+  .quick-reply svg {
+    margin-right: 1px;
+    width: 7px;
+  }
+
+  .personiliz-input-field {
+    width: 50% !important;
+
+  }
+
+  .personiliz-input-field svg {
+    right: inherit;
+    top: 16px;
+    left: 135px;
+    left: 100px;
+    width: 12px;
+  }
+
+  .personiliz-input-field .select-wrapper input.select-dropdown {
+    padding: 0 20px;
+    font-size: 12px;
+  }
+
+  .email-input-filed,
+  .subject-input-field {
+    width: 36% !important;
+    padding: 0 5px !important;
+  }
+
+  .personiliz-input-field-2 {
+    width: 28% !important;
+    padding: 0 5px !important;
+  }
+
+  .email-input-filed .select-wrapper input.select-dropdown {
+    font-size: 10px;
+  }
+
+  .email-input-filed svg {
+    right: 11px;
+    top: 17px;
+    width: 9px;
+  }
+
+  .subject-input-field input[type="text"] {
+    margin-bottom: 8px;
+    font-size: 10px;
+  }
+
+  .personiliz-input-field-2 .select-wrapper input.select-dropdown {
+    font-size: 10px;
+  }
+
+  .personiliz-input-field-2 svg {
+    right: 35px;
+    top: 17px;
+    width: 9px;
+  }
+
+  .audio-wrapper {
+    padding: 0;
+  }
+
+  .icon-record {
+    margin-right: 10px;
+  }
+
+  .audio-setup ul li {
+    margin-right: 4px;
+  }
+
+  .icon-record a {
+    width: 34px;
+    height: 34px;
+    border-radius: 17px;
+    align-items: center;
+  }
+
+  .icon-record a img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .audio-setup ul li svg {
+    width: 12px;
+  }
+
+  .audio-setup ul li.range-field {
+    width: 60px;
+  }
+
+  .icon-record span {
+    font-size: 9px;
+  }
+
+  /* .direct-mail .card-listing {
+    flex-direction: column;
+  } */
+  .direct-mail .card-listing a {
+
+    font-size: 10px;
+    line-height: 30px;
+    width: 130px;
+    margin-left: 3px;
+    height: 30px;
+    margin-right: 3px;
+
+  }
+
+  .direct-mail .card-listing a {
+    margin-bottom: 10px;
+  }
+
+  .sendemail ul li a {
+    font-size: 11px;
+    padding: 0 7px;
+  }
+
+  .deals .collapsible-body .listing-content a {
+    width: 60px;
+    font-size: 10px;
+  }
+
+  .deals .collapsible-body .listing-content a img {
+    width: 12px
+  }
+
+  .deals .collapsible-body .listing-content span,
+  .completed-forms .collapsible-body .form-name span {
+    font-size: 12px;
+  }
+
+  .direct-mail .card p {
+    margin-bottom: 20px;
+  }
+
+  .direct-mail .card {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 15px;
+  }
+
+  .audio-voice .card p.title {
+    font-size: 12px;
+  }
+
+  .deals .collapsible-body .listing-content span,
+  .deals .collapsible-body .listing-content a.won {
+    margin-right: 0px;
+  }
+}
+
+@media(min-width:1201px) and (max-width:1365px) {
+
+  .col-xxl-4 {
+    width: 30% !important;
+  }
+
+  .col-xxl-6 {
+    width: 40% !important;
+  }
+
+  .col-xxl-8 {
+    width: 70% !important;
+  }
+
+  .col-xxl-5 {
+    width: 40% !important;
+  }
+
+  .col-xxl-7 {
+    width: 60% !important;
+  }
+
+  .message-links-tab .tab a {
+    font-size: 10px;
+  }
+
+  .p-xxl-0 {
+    padding: 0 !important;
+  }
+
+  .pl-xxl-0 {
+    padding-left: 0 !important;
+  }
+
+  .message-info-details {
+    margin-left: 0;
+  }
+
+  .pr-xxl-0 {
+    padding-right: 0 !important;
+  }
+
+  .width-xxl {
+    width: 100% !important;
+  }
+
+  .user-name-area {
+    margin-bottom: 0px;
+  }
+
+  .user-name-area .user-image img {
+    width: 30px
+  }
+
+  .info-links .tabs {
+    height: 25px;
+  }
+
+  .info-links .tabs .tab {
+    height: 25px;
+    line-height: 25px;
+  }
+
+  .info-links ul li a {
+    line-height: 25px;
+  }
+
+  .info-links .tabs .tab a {
+    font-size: 10px;
+  }
+
+  .info-links {
+    padding-top: 10px;
+  }
+
+  .number-input-field .select-wrapper input.select-dropdown,
+  .email-input-filed .select-wrapper input.select-dropdown,
+  .subject-input-field input[type="text"] {
+    line-height: 20px;
+    height: 28px;
+  }
+
+  .inbox-main-section {
+    height: calc(100vh - 170px);
+  }
+
+  .chatbox-area {
+    /* height: 215px; */
+    padding-bottom: 0px;
+    padding-top: 0px;
+    height: calc(100% - 377px);
+  }
+
+  .chatbox-area.chatbox-empty {
+    /* height: 215px; */
+    padding-bottom: 0px;
+    padding-top: 0px;
+    height: calc(100% - 70px);
+  }
+
+  .chatbox-area.inbox-text-active {
+    height: calc(100% - 265px);
+  }
+
+  .chatbox-area.inbox-email-active,
+  .chatbox-area.inbox-video-email-active {
+    height: calc(100% - 377px);
+  }
+
+  .chatbox-area.inbox-voice-active {
+    height: calc(100% - 350px);
+  }
+
+
+  .chatbox-area.inbox-directmail-active {
+    height: calc(100% - 357px);
+  }
+
+  .chatbox-area.inbox-chat-active {
+    height: calc(100% - 229px);
+  }
+
+  .chatbox-area.inbox-note-active {
+    height: calc(100% - 229px);
+  }
+
+  .top-action-bar ul li a {
+    width: 18px;
+    height: 18px;
+    border-radius: 9px;
+    line-height: 18px;
+  }
+
+  .top-action-bar ul li a svg {
+    width: 7px;
+  }
+
+  .top-action-bar ul li {
+    margin-left: 7px;
+  }
+
+  .message-discussion .user-message p {
+    font-size: 11px;
+  }
+
+  .filtering-buttons a {
+    width: 30px;
+    height: 30px;
+  }
+
+  .filtering-buttons a svg {
+    width: 14px;
+  }
+
+  .message-discussion .user-area {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    font-size: 9px;
+    line-height: 20px;
+    padding: 5px;
+  }
+
+  .message-discussion .user-area i {
+    font-size: 6px;
+  }
+
+  .message-discussion .user-area i.bg-icons {
+    bottom: 0px;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    line-height: 10px;
+  }
+
+  .owner-contact .owner-brand img {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+  }
+
+  .owner-contact {
+    margin: 10px;
+    padding: 0 4px;
+  }
+
+  .lead-owner svg {
+    margin-left: 0px;
+    margin-right: 0;
+    width: 10px;
+  }
+
+  .lead-owner input[type="text"] {
+    width: 45px;
+    font-size: 10px;
+    line-height: 8px;
+  }
+
+  .collaborators .collapsible-header .left-icons {
+    padding-left: 0px;
+  }
+
+  .campaigns .collapsible-header .left-icons span.title {
+    margin-right: 5px;
+  }
+
+  .completed-forms .collapsible-header .left-icons span.number-badge {
+    margin-left: 10px;
+  }
+
+  .message-discussion .user-short-name {
+    padding: 0;
+    margin-right: 25px;
+  }
+
+  .message-discussion .user-message span.hours {
+    vertical-align: 2px;
+  }
+
+  .campaigns .collapsible-body .listing,
+  .deals .collapsible-body .listing-content,
+  .deals .collapsible-body .listing,
+  .collaborators .collapsible-body .listing {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .collaborators .collapsible-header .left-icons svg,
+  .collaborators .collapsible-header .left-icons img {
+    margin-right: 5px;
+    width: 10px;
+  }
+
+  .collaborators .collapsible-header .left-icons img {
+    width: 16px;
+  }
+
+  .completed-forms .collapsible-header .left-icons img {
+    width: 10px;
+  }
+
+
+  .owner-contact .owner-communication p,
+  .owner-contact .owner-communication span,
+  .owner-contact .edit-information a,
+  .chatbox-area .reply-messages .chat-text p,
+  .chatbox-area .text-messages .chat-text p,
+  .lead-owner span,
+  .dat-chip {
+    font-size: 11px;
+  }
+
+  .collaborators .collapsible-body .listing span {
+    font-size: 9px;
+  }
+
+  .collaborators .collapsible-header .left-icons span.title {
+    font-size: 9px;
+  }
+
+  .owner-contact .owner-identity h2,
+  .owner-contact .owner-identity h1 {
+    font-size: 10px;
+  }
+
+  .collaborators .collapsible-header .left-icons span.number-badge,
+  .collaborators .collapsible-header .right-icons i {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    line-height: 20px;
+    font-size: 12px;
+    margin-right: 4px;
+  }
+
+  .deals .collapsible-body .listing-content span,
+  .deals .collapsible-body .listing-content a.won {
+    margin-right: 0px;
+  }
+
+  .collaborators .collapsible-header .left-icons span.number-badge {
+    font-size: 10px;
+  }
+
+  .deals .collapsible-body .listing a {
+    font-size: 12px;
+    line-height: 20px;
+    height: 20px;
+    width: 50px;
+  }
+
+  .deals .collapsible-body .listing-content a {
+    width: 60px;
+    font-size: 10px;
+  }
+
+  .deals .collapsible-body .listing-content a img {
+    width: 12px
+  }
+
+  .campaigns .collapsible-body .listing a {
+    width: 75px;
+    padding: 0 2px;
+  }
+
+  .campaigns .collapsible-body .listing a i:first-child {
+    font-size: 12px;
+    padding-right: 2px;
+  }
+
+  .campaigns .collapsible-body .listing a i:last-child {
+    font-size: 12px;
+    padding-left: 2px;
+  }
+
+  .chatbox-area .reply-messages .user-short-name span {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    font-size: 12px;
+    line-height: 30px;
+  }
+
+  .chatbox-area .reply-messages .user-short-name {
+    padding: 0 5px;
+  }
+
+  .completed-forms .collapsible-body .form-name {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .completed-forms .collapsible-body,
+  .campaigns .collapsible-body,
+  .deals .collapsible-body {
+    padding: 0;
+  }
+
+  .chatbox-area .reply-messages .user-short-name {
+    padding: 0 5px;
+  }
+
+  .chatbox-area .reply-messages .chat-text p,
+  .chatbox-area .text-messages .chat-text p,
+  .chatbox-area .text-messages .activation-time span,
+  .chatbox-area .reply-messages .activation-time span {
+    font-size: 12px;
+  }
+
+  .user-name-area p {
+    margin: 0 0 0px 0;
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .user-name-area span {
+    font-size: 10px;
+    line-height: 10px;
+  }
+
+  .flex-colum-xxl {
+    flex-direction: column !important;
+  }
+
+  .chatbox-area .reply-messages .user-short-name {
+    margin-bottom: 10px;
+  }
+
+  .chatbox-area .reply-messages .chat-text p {
+    font-size: 13px;
+  }
+
+  .chatbox-area .reply-messages .chat-text {
+    padding: 7px 7px;
+    margin-left: 7px;
+  }
+
+  .chatbox-area .text-messages .chat-text p {
+    font-size: 13px;
+  }
+
+  .chatbox-area .text-messages .chat-text {
+    padding: 7px 7px;
+    margin-right: 7px;
+  }
+
+  .info-links ul li a svg {
+    width: 8px;
+    margin-right: 0;
+  }
+
+  .info-links ul li a img {
+    margin-right: 2px;
+    width: 8px;
+  }
+
+  .info-links ul li a img.voice-img {
+    width: 5px;
+  }
+
+  .info-links ul li a {
+    padding: 0 5px;
+    font-size: 9px;
+  }
+
+  .info-links span i.close {
+    width: 12px;
+    height: 12px;
+    border-radius: 6px;
+    font-size: 8px;
+    line-height: 12px;
+  }
+
+
+
+  .send-button-area {
+    padding: 0 15px;
+  }
+
+  .send-button-area .xl-width-100 {
+    width: 100% !important
+  }
+
+  .send-message-btn {
+    padding-bottom: 0;
+    margin-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .quick-reply {
+    width: 50% !important;
+  }
+
+  .saved-reply {
+    width: 100% !important;
+  }
+
+  .quick-reply a {
+    width: 100%;
+    font-size: 10px;
+  }
+
+  .completed-forms .collapsible-body .form-name span,
+  .deals .collapsible-body .listing-content span {
+    font-size: 12px;
+  }
+
+  .quick-reply svg {
+    width: 7px;
+  }
+
+  .personiliz-input-field {
+    width: 50% !important;
+  }
+
+  .personiliz-input-field svg {
+    right: inherit;
+    top: 16px;
+    left: 115px;
+  }
+
+  .personiliz-input-field .select-wrapper input.select-dropdown {
+    padding: 0 20px;
+  }
+
+  .email-input-filed,
+  .subject-input-field {
+    width: 100% !important;
+    padding: 0 5px !important;
+  }
+
+  .personiliz-input-field-2 {
+    width: 100% !important;
+    padding: 0 5px !important;
+  }
+
+  .subject-input-field input[type="text"] {
+    margin-bottom: 8px;
+    font-size: 11px;
+  }
+
+  .audio-wrapper {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .icon-record {
+    margin-right: 20px;
+  }
+
+
+  .direct-mail .card {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+  }
+
+  .direct-mail {
+    margin-top: 50px;
+  }
+
+  .direct-mail .card-listing a {
+    font-size: 10px;
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+
+  .direct-mail .card p {
+    font-size: 12px;
+  }
+
+  .message-discussion .user-message span.full-name {
+    font-size: 11px;
+  }
+
+  .message-discussion .user-message span.new {
+    width: 30px;
+    height: 15px;
+  }
+
+  .message-discussion .user-message span.new,
+  .message-discussion .user-message span.hours,
+  .message-discussion .user-message p {
+    font-size: 9px;
+  }
+
+  .no-data-found h3,
+  .no-details-found h3 {
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .no-data-found p,
+  .no-details-found p {
+    font-size: 12px;
+  }
+
+  .send-message-btn a {
+    padding: 7px 10px;
+    font-size: 12px;
+  }
+
+  .send-message-btn a i {
+    width: 18px;
+    height: 18px;
+    border-radius: 9px;
+    font-size: 9px;
+    line-height: 19px;
+    margin-right: 10px;
+    margin-top: 3px;
+  }
+
+  .number-input-field .select-wrapper input.select-dropdown {
+    font-size: 11px;
+  }
+
+  .number-input-field svg {
+    right: 25px;
+    top: 9px;
+    width: 10px;
+  }
+
+  .sendemail ul li a {
+    font-size: 10px;
+    padding: 0 5px;
+  }
+
+  .audio-setup ul li.range-field {
+    width: 55px;
+  }
+
+
+  .audio-voice .card {
+    padding: 5px 10px 5px 10px;
+    margin-bottom: 5px;
+  }
+
+  .all-message-tabs {
+    padding-left: 7px;
+  }
+
+  .message-discussion .user-message {
+    padding-left: 0;
+  }
+
+  .message-discussion .user-short-name {
+    margin-right: 5px;
+  }
+
+  .quick-reply a {
+    line-height: 28px;
+    height: 28px;
+  }
+
+  .top-action-bar {
+    padding-top: 7px;
+    padding-bottom: 0px;
+  }
+
+  .tox-tinymce {
+    height: 100px !important;
+  }
+
+}
+
+@media(max-width: 1366px) {
+  .no-data-found {
+    min-height: auto;
+  }
+
+  .no-data-found img {
+    margin-bottom: 40px;
+    max-width: 40%;
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .top-action-bar>.row {
+    margin-bottom: 0px;
+  }
+
+  .top-action-bar {
+    padding-bottom: 0px;
+  }
+
+  .inbox-empty .top-action-bar {
+    padding-bottom: 10px;
+  }
+
+  .dat-chip {
+    -webkit-transform: translate(-50%, 0px);
+    -ms-transform: translate(-50%, 0px);
+    transform: translate(-50%, 0px);
+  }
+
+  .user-name-area span {
+    font-size: 12px;
+  }
+
+  .info-links ul li a {
+    padding: 0 10px;
+    font-size: 12px;
+  }
+
+  .right_sidebar_active .info-links ul li a {
+    padding: 0 5px;
+    font-size: 9px;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  /* .user-short-name {
+    margin-right: 15px;
+  }
+
+  .message-discussion .user-message span.full-name {
+    font-size: 14px;
+  }
+
+  .message-discussion .user-message span.new,
+  .message-discussion .user-message span.hours,
+  .message-discussion .user-message p {
+    font-size: 10px;
+  }
+
+  .message-discussion .user-short-name {
+    padding: 0;
+    margin-right: 14px;
+  } */
+}
+
+@media only screen and (max-width: 1200px) {
+
+  .message-info-details,
+  .chatbox-area {
+    height: 100%;
+  }
+
+  .message-info,
+  .user-message-info,
+  .all-messages {
+    height: 100%;
+    min-height: 100%;
+  }
+
+  /* .message-discussion .user-message span.full-name {
+    font-size: 16px;
+  }
+
+  .message-discussion .user-message span.new,
+  .message-discussion .user-message span.hours,
+  .message-discussion .user-message p {
+    font-size: 12px;
+  } */
+}
+
+@media only screen and (max-width: 992px) {}
+
+@media only screen and (max-width: 600px) {}
