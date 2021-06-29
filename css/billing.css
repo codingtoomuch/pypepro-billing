@@ -174,13 +174,14 @@ p {
 }
 .bottom_menu_tabs {
   border-bottom: 1px solid #d5cbff;
-  height: 50px;
+  height: 70px;
 }
 .bottom_menu_tabs li a,
 .card_info_tabs li a {
   text-transform: capitalize;
   color: rgba(19, 49, 89, 0.65) !important;
   font-size: 16px !important;
+  /* height: 50px; */
 }
 .bottom_menu_tabs li a svg {
   fill: rgba(19, 49, 89, 0.65);
@@ -294,6 +295,12 @@ p {
 .existing_card_table tbody tr {
   background: var(--gray_light);
 }
+.existing_card_status_btn {
+  transition: 0.3s linear;
+}
+.existing_card_status_btn:hover {
+  background: var(--dark_blue);
+}
 .existing_card_action_btn {
   border: 1px solid var(--gray_dark);
 }
@@ -342,6 +349,7 @@ a.instant_topup_btn:hover {
   right: 15px;
   top: 15px;
 }
+
 .usage_history_table,
 .invoice_history_table {
   border-collapse: separate;
@@ -389,6 +397,8 @@ a.instant_topup_btn:hover {
 /* View details modal */
 #view_details_modal {
   max-width: 800px;
+  top: 80px !important;
+  bottom: inherit;
 }
 .view_details_modal_left {
   flex: 3;
@@ -405,5 +415,41 @@ a.instant_topup_btn:hover {
 @media (max-width: 1450px) {
   .balance__currency {
     font-size: 32px;
+  }
+}
+@media (max-width: 1200px) {
+  .balance__card {
+    margin-top: 20px;
+  }
+  #sidenav-left {
+    display: none;
+  }
+  .scrollable_table {
+    max-width: 100vw;
+    overflow-x: auto;
+  }
+  .scrollable_table table {
+    white-space: nowrap;
+  }
+  .bottom_menu_tabs {
+    height: 120px;
+  }
+  .bottom_menu_tabs .tab {
+    height: 120px;
+  }
+  .bottom_menu_tabs .tab a {
+    flex-direction: column;
+    word-break: normal;
+    height: 120px;
+  }
+  .bottom_menu_tabs .tab a svg {
+    margin: 0 !important;
+  }
+}
+
+@media (max-width: 862px) {
+  a.instant_topup_btn {
+    height: 60px;
+    /* width: 162px; */
   }
 }
