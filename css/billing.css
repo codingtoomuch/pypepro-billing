@@ -421,9 +421,6 @@ a.instant_topup_btn:hover {
   .balance__card {
     margin-top: 20px;
   }
-  #sidenav-left {
-    display: none;
-  }
   .scrollable_table {
     max-width: 100vw;
     overflow-x: auto;
