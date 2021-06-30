@@ -1360,8 +1360,10 @@
 					<div class="col xl6 s12">
 						<div class="white radius-10 d-flex justify-content-between p-3 billing__card">
 							<div class="pr-3">
-								<p class="text-dark-blue m-0 subtitle-2">You are currently Usage on the </p>
-								<p class="subtitle-1 text-light-blue m-0 weight-medium">Developer Testing Package</p>
+								<p class="current_usage text-dark-blue m-0 subtitle-1">You are currently Usage on the
+								</p>
+								<p class="testing_package heading-6 text-light-blue m-0 weight-medium">Developer Testing
+									Package</p>
 								<p class="text-dark-blue-65 subtitle-2 auto_bill_message my-3 pr-4">Your auto bill is
 									<span class="text-light-green">
 										turned on</span> and
@@ -1430,23 +1432,24 @@
 									<div class="d-flex">
 										<div
 											class="view_details_modal_left bg-light-blue d-flex flex-column justify-content-center align-items-center">
-											<p class="heading-4 white-text d-flex align-items-center">
-												<svg class="mr-2" width="38" height="36" viewBox="0 0 38 36" fill="none"
+											<p class="heading-4 email white-text d-flex align-items-center">
+												<svg class="mr-2" viewBox="0 0 27 26" fill="none"
 													xmlns="http://www.w3.org/2000/svg">
 													<path
-														d="M1.28875 10.3222L18.0739 0.258684C18.356 0.0894145 18.6788 0 19.0078 0C19.3368 0 19.6596 0.0894145 19.9418 0.258684L36.7106 10.324C36.8451 10.4046 36.9565 10.5187 37.0338 10.6552C37.1111 10.7917 37.1517 10.9458 37.1517 11.1027V34.1848C37.1517 34.6662 36.9604 35.1279 36.62 35.4683C36.2796 35.8088 35.8179 36 35.3365 36H2.66286C2.18144 36 1.71973 35.8088 1.37932 35.4683C1.0389 35.1279 0.847656 34.6662 0.847656 34.1848V11.1009C0.847623 10.944 0.88824 10.7898 0.965545 10.6534C1.04285 10.5169 1.15421 10.4028 1.28875 10.3222ZM30.5189 12.8453L19.1104 22.7182L7.4677 12.8344L5.11883 15.6008L19.1322 27.4994L32.8932 15.5917L30.5189 12.8453Z"
+														d="M0.709193 7.45489L12.8318 0.186827C13.0356 0.0645771 13.2687 0 13.5063 0C13.7439 0 13.9771 0.0645771 14.1808 0.186827L26.2916 7.4562C26.3888 7.51443 26.4692 7.59685 26.5251 7.69541C26.5809 7.79398 26.6102 7.90533 26.6102 8.01861V24.689C26.6102 25.0367 26.4721 25.3702 26.2262 25.616C25.9804 25.8619 25.6469 26 25.2992 26H1.7016C1.35391 26 1.02046 25.8619 0.774602 25.616C0.528746 25.3702 0.390625 25.0367 0.390625 24.689V8.0173C0.390601 7.90402 0.419936 7.79267 0.475767 7.6941C0.531599 7.59553 0.612022 7.51312 0.709193 7.45489ZM21.8199 9.27715L13.5804 16.4076L5.17176 9.26929L3.47536 11.2672L13.5961 19.8607L23.5346 11.2607L21.8199 9.27715Z"
 														fill="white" />
 												</svg>
+
 												Email
 											</p>
-											<p class="weight-semi-bold heading-3 white-text">$0.0000
+											<p class="weight-semi-bold heading-3 white-text currency">$0.0000
 											</p>
 											<p class="weight-semi-bold heading-6 text-light-green"> 12 May 2021, </p>
 										</div>
 										<div class="view_details_modal_right">
 											<div
 												class="d-flex justify-content-between align-items-center view_details_modal_right_header p-4">
-												<p class="text-dark-blue heading-5">Transaction details
+												<p class="transaction text-dark-blue heading-5">Transaction details
 												</p>
 												<span class="modal-close">
 													<svg width="26" height="26" viewBox="0 0 26 26" fill="none"
@@ -1465,7 +1468,7 @@
 											</div>
 											<div class="text-center py-3 view_details_download_btn">
 												<a href="transaction-details.html"
-													class="white-text bg-light-blue py-3 px-4 radius-5 d-inline-flex justify-content-center align-items-center">
+													class="white-text subtitle-1 bg-light-blue py-3 px-4 radius-5 d-inline-flex justify-content-center align-items-center">
 													<svg class="mr-2" width="14" height="21" viewBox="0 0 14 21"
 														fill="none" xmlns="http://www.w3.org/2000/svg">
 														<path
@@ -1664,7 +1667,7 @@
 														placeholder="**** 4242  EXP: 12/22">
 												</div>
 												<a href="!#"
-													class="add_card_btn text-light-blue radius-5 d-flex justify-content-center align-items-center">Add
+													class="add_card_btn text-light-blue radius-5 d-flex justify-content-center align-items-center subtitle-1">Add
 													Card</a>
 											</div>
 										</div>
@@ -1696,16 +1699,29 @@
 													<p class="text-dark-blue subtitle-1">CVC/CVV Code</p>
 												</div>
 												<div class="col s6">
-													<input
-														class="my-3 pl-3 pr-3 common__input__field change_card_input radius-5"
-														type="text" placeholder="Expiry Date"
-														onfocus="(this.type='date')"
-														onblur="if(this.value==''){this.type='text'}">
+													<div class="expiry_date_field">
+														<input
+															class="my-3 pl-3 pr-3 common__input__field change_card_input radius-5"
+															type="text" placeholder="Expiry Date"
+															onfocus="(this.type='date')"
+															onblur="if(this.value==''){this.type='text'}">
+														<svg width="14" height="16" viewBox="0 0 14 16" fill="none"
+															xmlns="http://www.w3.org/2000/svg">
+															<path
+																d="M1.75 15.875H12.25C13.0773 15.875 13.75 15.2023 13.75 14.375V3.875C13.75 3.04775 13.0773 2.375 12.25 2.375H10.75V0.875H9.25V2.375H4.75V0.875H3.25V2.375H1.75C0.92275 2.375 0.25 3.04775 0.25 3.875V14.375C0.25 15.2023 0.92275 15.875 1.75 15.875ZM1.75 4.625H12.25V6.125H1.75V4.625Z"
+																fill="#133159" fill-opacity="0.35" />
+														</svg>
+													</div>
 												</div>
 												<div class="col s6">
 													<input
 														class="my-3 pl-3 common__input__field change_card_input radius-5"
 														type="text" placeholder="****">
+												</div>
+												<div class="col s12 pt-3">
+													<a href="!#"
+														class="bg-light-blue white-text change_card_btn radius-5 d-inline-flex justify-content-center align-items-center subtitle-1">Change
+														Card</a>
 												</div>
 											</div>
 										</div>
@@ -1792,12 +1808,12 @@
 															</td>
 															<td class="pl-4">
 																<a href="!#"
-																	class="existing_card_status_btn bg-light-blue subtitle-1 radius-5 white-text py-2 px-4">
+																	class="existing_card_status_btn default bg-light-blue subtitle-1 radius-5 white-text  d-inline-flex justify-content-center align-items-center">
 																	Default</a>
 															</td>
 															<td class="pl-4">
 																<a href="!#"
-																	class="mr-2 subtitle-1 radius-5 text-dark-blue p-2 existing_card_action_btn d-inline-flex justify-content-center align-items-center">
+																	class="mr-2 subtitle-2 radius-5 text-dark-blue p-2 existing_card_action_btn d-inline-flex justify-content-center align-items-center">
 																	<svg class="mr-2" width="16" height="17"
 																		viewBox="0 0 16 17" fill="none"
 																		xmlns="http://www.w3.org/2000/svg">
@@ -1808,7 +1824,7 @@
 																	Edit
 																</a>
 																<a href="!#"
-																	class="subtitle-1 radius-5 text-dark-blue p-2 existing_card_action_btn d-inline-flex justify-content-center align-items-center">
+																	class="subtitle-2 radius-5 text-dark-blue p-2 existing_card_action_btn d-inline-flex justify-content-center align-items-center">
 																	<svg class="mr-2" width="13" height="17"
 																		viewBox="0 0 13 17" fill="none"
 																		xmlns="http://www.w3.org/2000/svg">
@@ -1835,12 +1851,12 @@
 															</td>
 															<td class="pl-4">
 																<a href="!#"
-																	class="existing_card_status_btn bg-light-blue subtitle-1 radius-5 white-text py-2 px-3">Make
+																	class="existing_card_status_btn make_default bg-light-blue subtitle-1 radius-5 white-text d-inline-flex justify-content-center align-items-center">Make
 																	Default </a>
 															</td>
 															<td class="pl-4">
 																<a href="!#"
-																	class="mr-2 subtitle-1 radius-5 text-dark-blue p-2 existing_card_action_btn d-inline-flex justify-content-center align-items-center">
+																	class="mr-2 subtitle-2 radius-5 text-dark-blue p-2 existing_card_action_btn d-inline-flex justify-content-center align-items-center">
 																	<svg class="mr-2" width="16" height="17"
 																		viewBox="0 0 16 17" fill="none"
 																		xmlns="http://www.w3.org/2000/svg">
@@ -1851,7 +1867,7 @@
 																	Edit
 																</a>
 																<a href="!#"
-																	class="subtitle-1 radius-5 text-dark-blue p-2 existing_card_action_btn  d-inline-flex justify-content-center align-items-center">
+																	class="subtitle-2 radius-5 text-dark-blue p-2 existing_card_action_btn  d-inline-flex justify-content-center align-items-center">
 																	<svg class="mr-2" width="13" height="17"
 																		viewBox="0 0 13 17" fill="none"
 																		xmlns="http://www.w3.org/2000/svg">
@@ -1925,7 +1941,7 @@
 									</p>
 
 									<div
-										class="d-flex align-items-center justify-content-between instant__topup__row mb-2">
+										class="d-flex align-items-center justify-content-between instant__topup__row field mb-2">
 										<p class="text-dark-blue subtitle-1">Recharge my account automatically
 											to
 											this
@@ -1947,7 +1963,8 @@
 											</div>
 										</div>
 									</div>
-									<div class="d-flex align-items-center justify-content-between instant__topup__row">
+									<div
+										class="d-flex align-items-center justify-content-between instant__topup__row field">
 										<p class="text-dark-blue subtitle-1">When my dollar balance reaches</p>
 										<div class="select__dropdown instant_topup_dropdown">
 											<select class="d-block radius-5">
@@ -1968,7 +1985,7 @@
 									</div>
 
 									<div
-										class="d-flex align-items-center justify-content-between instant__topup__row mt-4 pt-2">
+										class="d-flex align-items-center justify-content-between instant__topup__row buttons mt-4 pt-2">
 										<a href="!#"
 											class="subtitle-1 text-center mr-2 d-flex align-items-center px-3 white-text bg-light-blue radius-5 instant_topup_btn">
 											Save Auto Recharge Setting
@@ -2017,7 +2034,24 @@
 														<p class="text-dark-blue heading-6">Date</p>
 													</td>
 													<td>
-														<p class="text-dark-blue heading-6">Transaction Type</p>
+														<div class="d-flex justify-content-center">
+															<p class="text-dark-blue heading-6">Transaction Type</p>
+															<div class="d-flex flex-column mt-1 ml-3">
+																<svg class="mb-1" width="14" height="7"
+																	viewBox="0 0 14 7" fill="none"
+																	xmlns="http://www.w3.org/2000/svg">
+																	<path d="M7 0.5L13.0622 6.5L0.937822 6.5L7 0.5Z"
+																		fill="#3C7EF3" />
+																</svg>
+																<svg width="14" height="7" viewBox="0 0 14 7"
+																	fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<path
+																		d="M7 6.5L0.937822 0.5L13.0622 0.500001L7 6.5Z"
+																		fill="#3C7EF3" />
+																</svg>
+
+															</div>
+														</div>
 													</td>
 													<td>
 														<p class="text-dark-blue heading-6">Details</p>
@@ -2207,6 +2241,10 @@
 												</tr>
 											</tbody>
 										</table>
+									</div>
+									<div class="text-center">
+										<a href="!#" class="heading-6 text-gray mb-3 d-inline-block">Load
+											More</a>
 									</div>
 								</div>
 								<div id="invoice__history" class="col s12 bg-gray-light p-0">

@@ -207,6 +207,7 @@ p {
   height: 50px;
   border: 2px solid var(--gray_dark);
   width: 100%;
+  font-size: 16px;
   padding-left: 20px;
   cursor: pointer;
   -webkit-appearance: none;
@@ -275,6 +276,23 @@ p {
 .change_card_input {
   border: 1px solid var(--gray_dark) !important;
 }
+.expiry_date_field {
+  position: relative;
+}
+.expiry_date_field svg {
+  position: absolute;
+  right: 22px;
+  top: 30px;
+  pointer-events: none;
+}
+.change_card_btn {
+  height: 50px;
+  width: 181px;
+  transition: 0.3s linear;
+}
+.change_card_btn:hover {
+  background: var(--dark_blue);
+}
 .existing_card_table {
   border-collapse: separate;
   border-spacing: 0 20px;
@@ -297,6 +315,13 @@ p {
 }
 .existing_card_status_btn {
   transition: 0.3s linear;
+  height: 40px;
+}
+.existing_card_status_btn.default {
+  width: 133px;
+}
+.existing_card_status_btn.make_default {
+  width: 146px;
 }
 .existing_card_status_btn:hover {
   background: var(--dark_blue);
@@ -310,6 +335,9 @@ p {
 }
 .instant__topup__row {
   max-width: 790px;
+}
+.instant__topup__row.buttons a {
+  padding: 5px 16px !important;
 }
 a.instant_topup_btn {
   height: 50px;
@@ -399,9 +427,14 @@ a.instant_topup_btn:hover {
   max-width: 800px;
   top: 80px !important;
   bottom: inherit;
+  border-radius: 10px 0 0 10px;
 }
 .view_details_modal_left {
   flex: 3;
+}
+.view_details_modal_left p svg {
+  height: 36px;
+  width: 36px;
 }
 .view_details_modal_right {
   flex: 5;
@@ -416,8 +449,38 @@ a.instant_topup_btn:hover {
   .balance__currency {
     font-size: 32px;
   }
+  p.current_usage {
+    font-size: 14px;
+  }
+  p.testing_package {
+    font-size: 16px;
+  }
+}
+@media (max-width: 1366px) {
+  .view_details_modal_left p svg {
+    height: 26px;
+    width: 26px;
+  }
+  .view_details_modal_left p.email {
+    font-size: 24px;
+  }
+  .view_details_modal_left p.currency {
+    font-size: 32px;
+  }
+  .view_details_modal_right_header p.transaction {
+    font-size: 20px;
+  }
 }
 @media (max-width: 1200px) {
+  p.current_usage {
+    font-size: 16px;
+  }
+  p.testing_package {
+    font-size: 20px;
+  }
+  .balance__currency {
+    font-size: 48px;
+  }
   .balance__card {
     margin-top: 20px;
   }
@@ -443,10 +506,28 @@ a.instant_topup_btn:hover {
     margin: 0 !important;
   }
 }
-
-@media (max-width: 862px) {
+@media (max-width: 992px) {
+  .instant__topup__row.buttons {
+    max-width: 506px;
+  }
+  .instant__topup__row.buttons a {
+    padding: 5px !important;
+  }
+}
+@media (max-width: 1135px) {
   a.instant_topup_btn {
     height: 60px;
-    /* width: 162px; */
+  }
+}
+@media (max-width: 768px) {
+  .existing_card_status_btn {
+    font-size: 14px;
+  }
+  .instant__topup__row.field {
+    flex-direction: column;
+    align-items: flex-start !important;
+  }
+  .instant__topup__row.field > p {
+    margin: 10px 0;
   }
 }
