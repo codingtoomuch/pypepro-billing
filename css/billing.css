@@ -445,6 +445,28 @@ a.instant_topup_btn:hover {
 .view_details_download_btn {
   border-bottom: 1px solid var(--gray_dark);
 }
+
+/* Scrollbar css */
+.scrollable_table {
+  overflow-x: auto;
+  overflow-y: scroll;
+  max-height: 450px;
+  scrollbar-color: rgba(19, 49, 89, 0.5) var(--white);
+  scrollbar-width: thick;
+}
+.scrollable_table::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: var(--white);
+}
+.scrollable_table::-webkit-scrollbar {
+  height: 15px;
+  width: 10px;
+}
+.scrollable_table::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: rgba(19, 49, 89, 0.5);
+}
 @media (max-width: 1450px) {
   .balance__currency {
     font-size: 32px;
@@ -491,6 +513,10 @@ a.instant_topup_btn:hover {
   .scrollable_table table {
     white-space: nowrap;
   }
+  table {
+    height: 300px !important;
+    overflow: scroll !important;
+  }
   .bottom_menu_tabs {
     height: 120px;
   }
@@ -517,6 +543,15 @@ a.instant_topup_btn:hover {
 @media (max-width: 1135px) {
   a.instant_topup_btn {
     height: 60px;
+  }
+  .scrollable_table {
+    scrollbar-color: var(--dark_blue) rgba(60, 127, 243, 0.1);
+  }
+  .scrollable_table::-webkit-scrollbar-track {
+    background-color: rgba(60, 127, 243, 0.1);
+  }
+  .scrollable_table::-webkit-scrollbar-thumb {
+    background-color: var(--dark_blue);
   }
 }
 @media (max-width: 768px) {
